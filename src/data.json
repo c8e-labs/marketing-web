@@ -1,0 +1,1479 @@
+{
+    "calendar_dates": [
+        "2024-01-12",
+        "2024-01-15",
+        "2024-01-19",
+        "2024-01-22",
+        "2024-01-26",
+        "2024-01-29",
+        "2024-02-02",
+        "2024-02-05",
+        "2024-02-09",
+        "2024-02-12",
+        "2024-02-16",
+        "2024-02-19",
+        "2024-02-23",
+        "2024-02-26",
+        "2024-03-01",
+        "2024-03-04",
+        "2024-03-08",
+        "2024-03-11",
+        "2024-03-15",
+        "2024-03-18",
+        "2024-03-22",
+        "2024-03-25",
+        "2024-03-29",
+        "2024-04-01",
+        "2024-04-05",
+        "2024-04-08",
+        "2024-04-12",
+        "2024-04-15",
+        "2024-04-19",
+        "2024-04-22",
+        "2024-04-26",
+        "2024-04-29"
+    ],
+    "calendar_end": "2024-04-29",
+    "calendar_start": "2024-01-09",
+    "client_appointments": null,
+    "error": null,
+    "invite": {
+        "client_id": "993a69b9-bc74-4c81-9bc0-710b3a79e207",
+        "currency": "USD",
+        "duration_minutes": 50,
+        "id": "dd5eb353-c200-46c1-936e-6d368a75861a",
+        "is_free": false,
+        "lang": "en",
+        "message": "This is the introductory session to asses your Greek level and to establish a roadmap for the classes.",
+        "price": 4500,
+        "price_id": "a4c70b2c-8bec-4930-8426-4f3a648ada05",
+        "status": "sent",
+        "time_zone": "America/Los_Angeles",
+        "title": "Greek lessons"
+    },
+    "page_title": "Invite | sigmund_fraud",
+    "profile": {
+        "display_name": "Sicmud Fraud",
+        "first_name": "Sicmud",
+        "id": "00000001-0008-0000-aaaa-000000000000",
+        "job_title": "Therapist",
+        "last_name": "Fraud",
+        "page_content": "Sigmund Freud is the subject of three major films or TV series, the first of which was 1962s Freud: The Secret Passion starring Montgomery Clift as Freud, directed by John Huston from a revision of a script by an uncredited Jean-Paul Sartre. The film is focused on Freuds early life from 1885 to 1890 and combines multiple case studies of Freud into single ones, and multiple friends of his into single characters.\u003cbr/\u003eIn 1984, the BBC produced the six-episode mini-series Freud: the Life of a Dream starring David Suchet in the lead role.\u003cbr/\u003eThe stage play The Talking Cure and subsequent film A Dangerous Method focus on the conflict between Freud and Carl Jung. Both are written by Christopher Hampton and are partly based on the nonfiction book A Most Dangerous Method by John Kerr. Viggo Mortensen plays Freud and Michael Fassbender plays Jung. The play is a reworking of an earlier unfilmed screenplay.",
+        "page_description": "Austrian neurologist and the founder of psychoanalysis, a clinical method for evaluating and treating pathologies seen as originating from conflicts in the psyche, through dialogue between patient and psychoanalyst, and the distinctive theory of mind and human agency derived from it.",
+        "page_slug": "sigmud-fraud",
+        "page_title": "Sigmun Fraud, Therapist",
+        "picture": "/img/sigmund_fraud.jpeg",
+        "user_id": "00000000-0000-0000-0000-000000000000"
+    },
+    "provider": {
+        "id": "00000000-0002-0000-aaaa-000000000000",
+        "name": "sigmund_fraud",
+        "time_zone": "America/Los_Angeles"
+    },
+    "section_name": "invite",
+    "show_footer": false,
+    "show_header": false,
+    "slots": {
+        "2024-01-12": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-12T08:50:00-08:00",
+                "id": "ffca9880-a2ce-4f82-9df1-c7707250b00f",
+                "start_time": "2024-01-12T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-12T09:50:00-08:00",
+                "id": "7bcf7bb5-b0be-4387-bb3b-73ee5e86e8b6",
+                "start_time": "2024-01-12T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-12T10:50:00-08:00",
+                "id": "b9c41918-c166-4bca-82b7-524285c8355a",
+                "start_time": "2024-01-12T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-12T11:50:00-08:00",
+                "id": "3e0260db-4fef-4ce6-9340-b3ca175bcefa",
+                "start_time": "2024-01-12T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-12T13:50:00-08:00",
+                "id": "7ed79193-0b96-4be0-b15f-46a6d104fccc",
+                "start_time": "2024-01-12T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-12T18:50:00-08:00",
+                "id": "f4d14181-b8da-4f8a-995b-860dc29b8690",
+                "start_time": "2024-01-12T18:00:00-08:00"
+            }
+        ],
+        "2024-01-15": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-15T08:50:00-08:00",
+                "id": "77a3eb81-60c1-4d3b-b80d-53dd0ce1e9d6",
+                "start_time": "2024-01-15T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-15T09:50:00-08:00",
+                "id": "090a377f-8f6b-449b-a460-75f4868f623c",
+                "start_time": "2024-01-15T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-15T10:50:00-08:00",
+                "id": "2b187a9d-0b91-4d05-9604-99562f6818ce",
+                "start_time": "2024-01-15T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-15T11:50:00-08:00",
+                "id": "6f048d4c-f151-43f1-9278-21404a4ccab1",
+                "start_time": "2024-01-15T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-15T13:50:00-08:00",
+                "id": "0c04cdf6-4f8c-4fa4-891f-02e1ebad8019",
+                "start_time": "2024-01-15T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-15T18:50:00-08:00",
+                "id": "d2555210-6186-4e82-a822-df50b30e10b3",
+                "start_time": "2024-01-15T18:00:00-08:00"
+            }
+        ],
+        "2024-01-19": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-19T08:50:00-08:00",
+                "id": "7736fad2-da14-4b78-b86a-7ed88683fbfa",
+                "start_time": "2024-01-19T08:00:00-08:00"
+            },
+            {
+                "available": false,
+                "client_available": true,
+                "end_time": "2024-01-19T09:50:00-08:00",
+                "id": "f8afe1ef-e88b-410c-a481-bbd3099c6af6",
+                "start_time": "2024-01-19T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-19T10:50:00-08:00",
+                "id": "93b509d5-b9b4-4a72-b1c8-27aace4a0840",
+                "start_time": "2024-01-19T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-19T11:50:00-08:00",
+                "id": "8740d2bd-d8b0-46ac-8544-23e96b493104",
+                "start_time": "2024-01-19T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-19T13:50:00-08:00",
+                "id": "9e7a6ded-ce0b-47a9-8949-7b0d1353f1e6",
+                "start_time": "2024-01-19T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-19T18:50:00-08:00",
+                "id": "161809c7-6f6c-4a3b-9e1c-596d0cde2cc4",
+                "start_time": "2024-01-19T18:00:00-08:00"
+            }
+        ],
+        "2024-01-22": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-22T08:50:00-08:00",
+                "id": "eb5557db-b637-479d-a0df-16db83a6d399",
+                "start_time": "2024-01-22T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-22T09:50:00-08:00",
+                "id": "0c9bb79c-4a67-48d1-a63f-04dbc6f79a5a",
+                "start_time": "2024-01-22T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-22T10:50:00-08:00",
+                "id": "a429d12d-e770-47a9-8a4c-d9b25c25fdf2",
+                "start_time": "2024-01-22T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-22T11:50:00-08:00",
+                "id": "2cce30bb-76a4-4119-b2b9-51d596c5187a",
+                "start_time": "2024-01-22T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-22T13:50:00-08:00",
+                "id": "e26249c7-df32-43a4-875b-66864213845c",
+                "start_time": "2024-01-22T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-22T18:50:00-08:00",
+                "id": "c8f16e52-6b07-4faa-9aa3-4656f45603be",
+                "start_time": "2024-01-22T18:00:00-08:00"
+            }
+        ],
+        "2024-01-26": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-26T08:50:00-08:00",
+                "id": "b6a17396-d49a-4335-93b0-141a0ac30b93",
+                "start_time": "2024-01-26T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-26T09:50:00-08:00",
+                "id": "5c750251-363e-49ab-8a7b-783c78e2d781",
+                "start_time": "2024-01-26T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-26T10:50:00-08:00",
+                "id": "f90d2ef2-a79a-4ffd-9689-3283ba7a82b1",
+                "start_time": "2024-01-26T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-26T11:50:00-08:00",
+                "id": "8112d6ca-4ebe-4ee4-805f-772b925b7800",
+                "start_time": "2024-01-26T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-26T13:50:00-08:00",
+                "id": "be84d305-eba5-4676-9465-36791723e8bc",
+                "start_time": "2024-01-26T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-26T18:50:00-08:00",
+                "id": "8c37b178-e037-4a12-aaa6-fa562ed35b72",
+                "start_time": "2024-01-26T18:00:00-08:00"
+            }
+        ],
+        "2024-01-29": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-29T08:50:00-08:00",
+                "id": "bf1912b4-64d7-4ee5-b4eb-1d71b8d2e6c0",
+                "start_time": "2024-01-29T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-29T09:50:00-08:00",
+                "id": "8127e4c5-fea8-4a7f-b37b-a26ac07f4b51",
+                "start_time": "2024-01-29T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-29T10:50:00-08:00",
+                "id": "6c995e69-e4b9-4e95-83e9-e70266dadd3b",
+                "start_time": "2024-01-29T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-29T11:50:00-08:00",
+                "id": "b3f8e0fb-8da8-403f-bdb4-b92ed3c1ee46",
+                "start_time": "2024-01-29T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-29T13:50:00-08:00",
+                "id": "728d2736-68b5-4e51-9e4b-cb4dfde0a6f2",
+                "start_time": "2024-01-29T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-01-29T18:50:00-08:00",
+                "id": "a302ad3a-e680-4f8c-a0f7-32312dfbcdc3",
+                "start_time": "2024-01-29T18:00:00-08:00"
+            }
+        ],
+        "2024-02-02": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-02T08:50:00-08:00",
+                "id": "122e8160-ce60-46cc-9e47-d94d01bb90cb",
+                "start_time": "2024-02-02T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-02T09:50:00-08:00",
+                "id": "85e4d7f3-3fd7-4f92-9e1b-581c9842459f",
+                "start_time": "2024-02-02T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-02T10:50:00-08:00",
+                "id": "ea501cbc-8eee-48ba-9297-7aeeca411c41",
+                "start_time": "2024-02-02T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-02T11:50:00-08:00",
+                "id": "ce026574-a7cb-4151-8027-cd7aa65ba244",
+                "start_time": "2024-02-02T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-02T13:50:00-08:00",
+                "id": "7e456198-232d-4f7b-aa02-ba47cefe6670",
+                "start_time": "2024-02-02T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-02T18:50:00-08:00",
+                "id": "d805ee00-e2df-410b-9cd3-aa18ce4e0ea5",
+                "start_time": "2024-02-02T18:00:00-08:00"
+            }
+        ],
+        "2024-02-05": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-05T08:50:00-08:00",
+                "id": "6e8cb135-0f7e-4482-b09d-b65312db505f",
+                "start_time": "2024-02-05T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-05T09:50:00-08:00",
+                "id": "83274c7a-4d00-4ec1-b448-e042e3d817f4",
+                "start_time": "2024-02-05T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-05T10:50:00-08:00",
+                "id": "769f3279-ecb9-49ef-8700-3e28e1b1a132",
+                "start_time": "2024-02-05T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-05T11:50:00-08:00",
+                "id": "e91663f8-fe24-465e-aad9-b6cbc1ae245a",
+                "start_time": "2024-02-05T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-05T13:50:00-08:00",
+                "id": "a0a6a71a-7c9f-4d83-8def-16c3e676fc1d",
+                "start_time": "2024-02-05T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-05T18:50:00-08:00",
+                "id": "ca991b54-aca1-4e01-abee-b7e5d7a50548",
+                "start_time": "2024-02-05T18:00:00-08:00"
+            }
+        ],
+        "2024-02-09": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-09T08:50:00-08:00",
+                "id": "ed4f2e55-7ba6-4cf2-9756-ce81ecbc6db9",
+                "start_time": "2024-02-09T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-09T09:50:00-08:00",
+                "id": "6170555b-3974-455d-80dc-798decf5b3e6",
+                "start_time": "2024-02-09T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-09T10:50:00-08:00",
+                "id": "33fbcbe3-7ae1-4093-8faa-ae803fc4a7a2",
+                "start_time": "2024-02-09T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-09T11:50:00-08:00",
+                "id": "2aff1bed-ba1e-4443-b801-59725abdcd51",
+                "start_time": "2024-02-09T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-09T13:50:00-08:00",
+                "id": "ec1ef275-7ec2-4efa-9886-b155942f74c3",
+                "start_time": "2024-02-09T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-09T18:50:00-08:00",
+                "id": "7ce49d52-d7d4-4807-b1d2-403e1344eb09",
+                "start_time": "2024-02-09T18:00:00-08:00"
+            }
+        ],
+        "2024-02-12": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-12T08:50:00-08:00",
+                "id": "68a5e010-f773-4427-a223-99f8f451ba76",
+                "start_time": "2024-02-12T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-12T09:50:00-08:00",
+                "id": "21fb322e-82f7-45d8-910e-ffbf1f323cd9",
+                "start_time": "2024-02-12T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-12T10:50:00-08:00",
+                "id": "b47944f5-d99a-4750-ab13-31b64f4e787e",
+                "start_time": "2024-02-12T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-12T11:50:00-08:00",
+                "id": "5767ce6a-5203-40e0-af66-740d76404a43",
+                "start_time": "2024-02-12T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-12T13:50:00-08:00",
+                "id": "a9e54302-bf08-41dc-831b-6da849976191",
+                "start_time": "2024-02-12T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-12T18:50:00-08:00",
+                "id": "fc85e887-2ee6-4b34-8465-0708a9ab5a2e",
+                "start_time": "2024-02-12T18:00:00-08:00"
+            }
+        ],
+        "2024-02-16": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-16T08:50:00-08:00",
+                "id": "5174f2be-45e8-4b4d-873e-6370e655a6a4",
+                "start_time": "2024-02-16T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-16T09:50:00-08:00",
+                "id": "4f2c3aa6-8c9b-4729-966e-e6f2969254fc",
+                "start_time": "2024-02-16T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-16T10:50:00-08:00",
+                "id": "b5da01bd-cf0f-44b8-b863-a4ba8c048334",
+                "start_time": "2024-02-16T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-16T11:50:00-08:00",
+                "id": "9d63d5bd-efb7-4cbe-a4b3-f7b52d7ef035",
+                "start_time": "2024-02-16T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-16T13:50:00-08:00",
+                "id": "ca68e073-a689-4f6c-880a-cbb4e1804169",
+                "start_time": "2024-02-16T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-16T18:50:00-08:00",
+                "id": "f9f4737c-e474-4b12-91e9-4d47cb0d6a81",
+                "start_time": "2024-02-16T18:00:00-08:00"
+            }
+        ],
+        "2024-02-19": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-19T08:50:00-08:00",
+                "id": "730c4a4e-0dad-4a5a-9077-285b8f831475",
+                "start_time": "2024-02-19T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-19T09:50:00-08:00",
+                "id": "88ed5dc8-f52f-4043-a763-545b309f6c5d",
+                "start_time": "2024-02-19T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-19T10:50:00-08:00",
+                "id": "319e28a6-8334-49a2-ab69-e83e618e641a",
+                "start_time": "2024-02-19T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-19T11:50:00-08:00",
+                "id": "83b4fe65-3c6a-46d6-bdab-2ff0bf4aa732",
+                "start_time": "2024-02-19T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-19T13:50:00-08:00",
+                "id": "dc7b06f4-5a5a-4309-aa05-65d8c2e06cd5",
+                "start_time": "2024-02-19T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-19T18:50:00-08:00",
+                "id": "9f1fee3f-902a-4d90-9ab5-124fda741e00",
+                "start_time": "2024-02-19T18:00:00-08:00"
+            }
+        ],
+        "2024-02-23": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-23T08:50:00-08:00",
+                "id": "32a75fae-4f8b-483c-9d43-5e1e4df87144",
+                "start_time": "2024-02-23T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-23T09:50:00-08:00",
+                "id": "ec792afc-ace1-476b-b28f-d3f107ec4e3e",
+                "start_time": "2024-02-23T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-23T10:50:00-08:00",
+                "id": "2c44eb64-ed9a-463e-90c0-9df4a667b78b",
+                "start_time": "2024-02-23T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-23T11:50:00-08:00",
+                "id": "b9a2f9f1-e747-4b14-b81f-3c19c32f150f",
+                "start_time": "2024-02-23T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-23T13:50:00-08:00",
+                "id": "99bcae93-b1ec-45b9-ab8b-4d349608a367",
+                "start_time": "2024-02-23T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-23T18:50:00-08:00",
+                "id": "c27e8ce8-267c-4cf6-9fbc-3a8cfb3b8a95",
+                "start_time": "2024-02-23T18:00:00-08:00"
+            }
+        ],
+        "2024-02-26": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-26T08:50:00-08:00",
+                "id": "aa4b7c63-779b-45dc-ada3-9d847b920ea6",
+                "start_time": "2024-02-26T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-26T09:50:00-08:00",
+                "id": "d08be378-da8e-4815-b3f6-24aa85c39a1e",
+                "start_time": "2024-02-26T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-26T10:50:00-08:00",
+                "id": "365ac06d-e962-4c9e-86e9-777cf1a8178d",
+                "start_time": "2024-02-26T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-26T11:50:00-08:00",
+                "id": "e36dcd0e-d4ab-49fa-a21f-9a008a0356f9",
+                "start_time": "2024-02-26T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-26T13:50:00-08:00",
+                "id": "5a81c85a-852d-412e-a59c-c486f5979606",
+                "start_time": "2024-02-26T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-02-26T18:50:00-08:00",
+                "id": "0bd38f5b-69d8-4f30-90dd-c3e856f13fbf",
+                "start_time": "2024-02-26T18:00:00-08:00"
+            }
+        ],
+        "2024-03-01": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-01T08:50:00-08:00",
+                "id": "aeb15c0d-c4b7-4c49-b462-56444753b965",
+                "start_time": "2024-03-01T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-01T09:50:00-08:00",
+                "id": "7d54fcb5-2834-4c59-acfd-0d74cbecd959",
+                "start_time": "2024-03-01T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-01T10:50:00-08:00",
+                "id": "82daac6e-8747-4d05-af1c-eea4d33be765",
+                "start_time": "2024-03-01T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-01T11:50:00-08:00",
+                "id": "77ded1ed-077e-4cc4-b387-807d477b168a",
+                "start_time": "2024-03-01T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-01T13:50:00-08:00",
+                "id": "3dfe8ee0-7fea-41d0-8124-dfaae70f05da",
+                "start_time": "2024-03-01T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-01T18:50:00-08:00",
+                "id": "a0995bae-b688-455b-88e3-cfc3c8f0b4ae",
+                "start_time": "2024-03-01T18:00:00-08:00"
+            }
+        ],
+        "2024-03-04": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-04T08:50:00-08:00",
+                "id": "574a1b99-bd5b-4409-b875-25ca898067bf",
+                "start_time": "2024-03-04T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-04T09:50:00-08:00",
+                "id": "cd4f7b1d-a695-4352-a2df-f3cc8b17a5ba",
+                "start_time": "2024-03-04T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-04T10:50:00-08:00",
+                "id": "984715b5-6bb2-4929-903a-a4b44bad35e4",
+                "start_time": "2024-03-04T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-04T11:50:00-08:00",
+                "id": "c8c67f5a-3094-423a-8e4c-211e6fd60238",
+                "start_time": "2024-03-04T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-04T13:50:00-08:00",
+                "id": "74e21de9-bbaa-46bb-b3e6-f40eb5d24045",
+                "start_time": "2024-03-04T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-04T18:50:00-08:00",
+                "id": "e8100f1a-e390-4836-a0a7-0884afd1d737",
+                "start_time": "2024-03-04T18:00:00-08:00"
+            }
+        ],
+        "2024-03-08": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-08T08:50:00-08:00",
+                "id": "cc0df510-798e-449d-b701-c077346d6cf2",
+                "start_time": "2024-03-08T08:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-08T09:50:00-08:00",
+                "id": "a626cd87-409f-4144-82f5-ac443e8a9ef4",
+                "start_time": "2024-03-08T09:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-08T10:50:00-08:00",
+                "id": "a2272107-9b21-4eaf-a0d4-9e0d40ca5745",
+                "start_time": "2024-03-08T10:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-08T11:50:00-08:00",
+                "id": "9aa37bb3-0c57-4177-a80b-766c200c6591",
+                "start_time": "2024-03-08T11:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-08T13:50:00-08:00",
+                "id": "ce1a2db8-17d8-4035-9aab-b2a9cc3b7254",
+                "start_time": "2024-03-08T13:00:00-08:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-08T18:50:00-08:00",
+                "id": "7bd69e83-d8af-488a-95c9-6cd86f1c876c",
+                "start_time": "2024-03-08T18:00:00-08:00"
+            }
+        ],
+        "2024-03-11": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-11T08:50:00-07:00",
+                "id": "9e938893-f898-4345-aa55-ddf15b698b45",
+                "start_time": "2024-03-11T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-11T09:50:00-07:00",
+                "id": "1b86cb94-c806-4148-9204-7d60b3cb9c01",
+                "start_time": "2024-03-11T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-11T10:50:00-07:00",
+                "id": "3e1a18be-dd8d-48ff-9f2d-ade765f4559b",
+                "start_time": "2024-03-11T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-11T11:50:00-07:00",
+                "id": "1c314290-c618-485c-ae9e-347690794bbd",
+                "start_time": "2024-03-11T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-11T13:50:00-07:00",
+                "id": "8d6f5541-d9d8-4215-b595-738ad700a3b6",
+                "start_time": "2024-03-11T13:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-11T18:50:00-07:00",
+                "id": "a4e5aeea-820a-4e30-be3e-9a06808ae254",
+                "start_time": "2024-03-11T18:00:00-07:00"
+            }
+        ],
+        "2024-03-15": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-15T08:50:00-07:00",
+                "id": "0fcc45ff-f682-46d4-aa9e-78e1e5f4065e",
+                "start_time": "2024-03-15T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-15T09:50:00-07:00",
+                "id": "70642ecd-8bc1-4241-bd97-ba2cd8840b6d",
+                "start_time": "2024-03-15T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-15T10:50:00-07:00",
+                "id": "39a66032-8b11-4b5c-9de7-f5fe03653dbe",
+                "start_time": "2024-03-15T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-15T11:50:00-07:00",
+                "id": "f7daf92e-92bf-4044-a308-ecc165c5e6f4",
+                "start_time": "2024-03-15T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-15T13:50:00-07:00",
+                "id": "c9d163a6-fb9d-48b1-aa96-03b02a19ece7",
+                "start_time": "2024-03-15T13:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-15T18:50:00-07:00",
+                "id": "bf6916f5-5460-4a09-8927-df38b404dc6e",
+                "start_time": "2024-03-15T18:00:00-07:00"
+            }
+        ],
+        "2024-03-18": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-18T08:50:00-07:00",
+                "id": "f9ecb283-b839-4bf3-8686-6d0ff5761662",
+                "start_time": "2024-03-18T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-18T09:50:00-07:00",
+                "id": "69c2ebca-1f92-489e-ab30-15dfb9754dce",
+                "start_time": "2024-03-18T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-18T10:50:00-07:00",
+                "id": "4a2db140-26da-4dd6-8ae9-165e77cfb48c",
+                "start_time": "2024-03-18T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-18T11:50:00-07:00",
+                "id": "6ee065e4-9277-44ce-94c4-bfd1c0e5ffc4",
+                "start_time": "2024-03-18T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-18T13:50:00-07:00",
+                "id": "53f52a4c-1c3d-41c0-b7de-c5e5a400e618",
+                "start_time": "2024-03-18T13:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-18T18:50:00-07:00",
+                "id": "65b60a28-bad9-4e77-9f11-e1165ae4258e",
+                "start_time": "2024-03-18T18:00:00-07:00"
+            }
+        ],
+        "2024-03-22": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-22T08:50:00-07:00",
+                "id": "948b9392-7afb-4c84-ba8c-6cd95b75d26f",
+                "start_time": "2024-03-22T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-22T09:50:00-07:00",
+                "id": "8d23d59f-fd69-406d-8bba-fdd3c1faf124",
+                "start_time": "2024-03-22T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-22T10:50:00-07:00",
+                "id": "1c1f7a38-1ab9-4770-8b7f-369d3ef0d217",
+                "start_time": "2024-03-22T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-22T11:50:00-07:00",
+                "id": "7e2977ca-d2c9-4435-bc6c-31365d997f22",
+                "start_time": "2024-03-22T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-22T13:50:00-07:00",
+                "id": "371e0399-0dc5-4ec0-b342-11342ee2bc75",
+                "start_time": "2024-03-22T13:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-22T18:50:00-07:00",
+                "id": "a270a05c-b6cc-4c7e-91fc-359f3c443971",
+                "start_time": "2024-03-22T18:00:00-07:00"
+            }
+        ],
+        "2024-03-25": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-25T08:50:00-07:00",
+                "id": "9c837ba2-20fd-4303-9a84-5af4013d7cc7",
+                "start_time": "2024-03-25T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-25T09:50:00-07:00",
+                "id": "d93ea3e1-a964-4b24-845a-6feff1931242",
+                "start_time": "2024-03-25T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-25T10:50:00-07:00",
+                "id": "7396519c-11d7-4cd6-9133-c96e1975c226",
+                "start_time": "2024-03-25T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-25T11:50:00-07:00",
+                "id": "92bb7ca0-16c6-4fb1-99fb-ead88f8dcf2a",
+                "start_time": "2024-03-25T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-25T13:50:00-07:00",
+                "id": "221199f4-4c13-4e97-bee1-72123c9ab57e",
+                "start_time": "2024-03-25T13:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-25T18:50:00-07:00",
+                "id": "1b303de8-5123-4187-95d4-eb37e13f4842",
+                "start_time": "2024-03-25T18:00:00-07:00"
+            }
+        ],
+        "2024-03-29": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-29T08:50:00-07:00",
+                "id": "3bf18be7-1985-4450-9171-95ed56383521",
+                "start_time": "2024-03-29T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-29T09:50:00-07:00",
+                "id": "50f6dda1-0a23-4a06-9c42-c29e75859294",
+                "start_time": "2024-03-29T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-29T10:50:00-07:00",
+                "id": "6a25ecbe-8ebf-4c14-a4cc-8de5815f4446",
+                "start_time": "2024-03-29T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-29T11:50:00-07:00",
+                "id": "49d42864-ee4c-4eb1-81ef-1d6cebf8ab92",
+                "start_time": "2024-03-29T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-29T13:50:00-07:00",
+                "id": "e476028f-8994-417c-8a34-a791159bda0d",
+                "start_time": "2024-03-29T13:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-03-29T18:50:00-07:00",
+                "id": "7dba11e0-20e2-45a3-9b0c-40810b98f3a3",
+                "start_time": "2024-03-29T18:00:00-07:00"
+            }
+        ],
+        "2024-04-01": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-01T08:50:00-07:00",
+                "id": "8548d863-3925-425a-9408-81004d148de3",
+                "start_time": "2024-04-01T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-01T09:50:00-07:00",
+                "id": "af62eecc-fee1-405b-9cd5-a45f4193edad",
+                "start_time": "2024-04-01T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-01T10:50:00-07:00",
+                "id": "640367a5-33dd-48a6-b482-7241d8a58e28",
+                "start_time": "2024-04-01T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-01T11:50:00-07:00",
+                "id": "c36bc21d-3e8f-414a-bc0a-1bb904699c12",
+                "start_time": "2024-04-01T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-01T13:50:00-07:00",
+                "id": "829d1213-b1d2-4f72-8ceb-f83e82d99b0e",
+                "start_time": "2024-04-01T13:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-01T18:50:00-07:00",
+                "id": "f116a525-8f00-4675-8256-26d4933d5e3d",
+                "start_time": "2024-04-01T18:00:00-07:00"
+            }
+        ],
+        "2024-04-05": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-05T08:50:00-07:00",
+                "id": "1a8f37c7-5fe2-4685-8989-fe8a874ee745",
+                "start_time": "2024-04-05T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-05T09:50:00-07:00",
+                "id": "a9f9756d-b3dc-482e-b6b2-88b383f83639",
+                "start_time": "2024-04-05T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-05T10:50:00-07:00",
+                "id": "42e4297c-ca45-4171-88d4-49b0cb4b0a2c",
+                "start_time": "2024-04-05T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-05T11:50:00-07:00",
+                "id": "032c97a5-5e8d-4a33-ae14-a8e57baa36cc",
+                "start_time": "2024-04-05T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-05T13:50:00-07:00",
+                "id": "d52b727e-aee7-4374-a85b-bd706beb641e",
+                "start_time": "2024-04-05T13:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-05T18:50:00-07:00",
+                "id": "c4046d7e-b2a3-4b3f-a3df-a9cffb0ced20",
+                "start_time": "2024-04-05T18:00:00-07:00"
+            }
+        ],
+        "2024-04-08": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-08T08:50:00-07:00",
+                "id": "0cb871fa-9ee2-4f0e-b6bc-48adc84dbe19",
+                "start_time": "2024-04-08T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-08T09:50:00-07:00",
+                "id": "5510be9c-c261-4cb3-a626-d652e4262e84",
+                "start_time": "2024-04-08T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-08T10:50:00-07:00",
+                "id": "fa64bb9d-8f1e-448a-b994-f1e9049a21c3",
+                "start_time": "2024-04-08T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-08T11:50:00-07:00",
+                "id": "fd7f5d30-d18d-4ac8-bf12-6247fa4ab1fd",
+                "start_time": "2024-04-08T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-08T13:50:00-07:00",
+                "id": "68032597-2e9f-4866-96f6-ea70af35c6ca",
+                "start_time": "2024-04-08T13:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-08T18:50:00-07:00",
+                "id": "d93c1a7d-e357-48b8-9525-5d1c440ed5fc",
+                "start_time": "2024-04-08T18:00:00-07:00"
+            }
+        ],
+        "2024-04-12": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-12T08:50:00-07:00",
+                "id": "7a210e93-2444-4db4-8670-9d57724e80a0",
+                "start_time": "2024-04-12T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-12T09:50:00-07:00",
+                "id": "f7e620dd-fb86-412d-862f-596d5090de58",
+                "start_time": "2024-04-12T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-12T10:50:00-07:00",
+                "id": "fa057121-377b-4baf-84b8-987cd1774433",
+                "start_time": "2024-04-12T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-12T11:50:00-07:00",
+                "id": "604cf41c-d11b-4daf-a26d-7237777a6935",
+                "start_time": "2024-04-12T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-12T13:50:00-07:00",
+                "id": "8601eff9-61f7-4049-8018-196ca41b448e",
+                "start_time": "2024-04-12T13:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-12T18:50:00-07:00",
+                "id": "2a9281f0-7934-44e6-b906-6f9f51dbeff6",
+                "start_time": "2024-04-12T18:00:00-07:00"
+            }
+        ],
+        "2024-04-15": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-15T08:50:00-07:00",
+                "id": "cf359674-9186-4287-8fab-32aeb35ae4f0",
+                "start_time": "2024-04-15T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-15T09:50:00-07:00",
+                "id": "10525d69-aaed-43eb-9b05-ef7c430ce184",
+                "start_time": "2024-04-15T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-15T10:50:00-07:00",
+                "id": "b13356bd-157c-4960-b643-48b1aa188c8c",
+                "start_time": "2024-04-15T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-15T11:50:00-07:00",
+                "id": "828da888-1a9b-49ae-a04d-49ac213de8c2",
+                "start_time": "2024-04-15T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-15T13:50:00-07:00",
+                "id": "2c87a856-e3c7-4bbe-9e1e-df6d4f729d9c",
+                "start_time": "2024-04-15T13:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-15T18:50:00-07:00",
+                "id": "9468c178-50d0-450c-bcc5-adec9ab3b28e",
+                "start_time": "2024-04-15T18:00:00-07:00"
+            }
+        ],
+        "2024-04-19": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-19T08:50:00-07:00",
+                "id": "10641b9c-9f93-4677-99db-3c33dfc64073",
+                "start_time": "2024-04-19T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-19T09:50:00-07:00",
+                "id": "0dc6d49d-1c18-4c64-b869-5e0a955f0a92",
+                "start_time": "2024-04-19T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-19T10:50:00-07:00",
+                "id": "7cd56338-e863-456c-b7db-422c11b36363",
+                "start_time": "2024-04-19T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-19T11:50:00-07:00",
+                "id": "0bfd8392-7870-46ef-934d-0888f4bbfcc4",
+                "start_time": "2024-04-19T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-19T13:50:00-07:00",
+                "id": "e98e46d8-e394-4bb7-9a95-58de107cf329",
+                "start_time": "2024-04-19T13:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-19T18:50:00-07:00",
+                "id": "3483523d-81c5-4317-a6f5-51cf8000e279",
+                "start_time": "2024-04-19T18:00:00-07:00"
+            }
+        ],
+        "2024-04-22": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-22T08:50:00-07:00",
+                "id": "74067311-7f00-4b72-9cf1-e7e32f56c376",
+                "start_time": "2024-04-22T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-22T09:50:00-07:00",
+                "id": "d5992910-a102-4b02-921f-b4f2e057bbd0",
+                "start_time": "2024-04-22T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-22T10:50:00-07:00",
+                "id": "6c52cd7f-136c-4c28-9685-716287f481ad",
+                "start_time": "2024-04-22T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-22T11:50:00-07:00",
+                "id": "f0c6abd8-98eb-403c-b4e5-bfa70435ce1c",
+                "start_time": "2024-04-22T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-22T13:50:00-07:00",
+                "id": "4a2696cc-eb70-475e-b1bf-2b48916bb441",
+                "start_time": "2024-04-22T13:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-22T18:50:00-07:00",
+                "id": "3af6f7b7-1ded-41b3-8377-48910218f94f",
+                "start_time": "2024-04-22T18:00:00-07:00"
+            }
+        ],
+        "2024-04-26": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-26T08:50:00-07:00",
+                "id": "e1d15b39-f23a-4392-bf5f-74f4860fade5",
+                "start_time": "2024-04-26T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-26T09:50:00-07:00",
+                "id": "5da6966d-c9bc-4673-8e96-ca357d1e7bd8",
+                "start_time": "2024-04-26T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-26T10:50:00-07:00",
+                "id": "0bdc71c9-526b-405b-bdc6-f4d409aaa1f4",
+                "start_time": "2024-04-26T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-26T11:50:00-07:00",
+                "id": "4f48981e-59b7-491c-a6c5-9110036ed6cc",
+                "start_time": "2024-04-26T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-26T13:50:00-07:00",
+                "id": "34755f31-3788-4074-9e38-64bf99de2b4e",
+                "start_time": "2024-04-26T13:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-26T18:50:00-07:00",
+                "id": "4a326a53-0161-4df0-ab2b-c7373a5b3ac4",
+                "start_time": "2024-04-26T18:00:00-07:00"
+            }
+        ],
+        "2024-04-29": [
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-29T08:50:00-07:00",
+                "id": "e4e8ec49-47a9-4b7f-a869-67afb0d1f3f1",
+                "start_time": "2024-04-29T08:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-29T09:50:00-07:00",
+                "id": "60dc9d34-8860-4f12-9893-29eb9ec78d1a",
+                "start_time": "2024-04-29T09:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-29T10:50:00-07:00",
+                "id": "15b54dd6-1f63-4319-a420-5f187b7d6e92",
+                "start_time": "2024-04-29T10:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-29T11:50:00-07:00",
+                "id": "8fe7aac3-9836-4990-903a-75700504f67c",
+                "start_time": "2024-04-29T11:00:00-07:00"
+            },
+            {
+                "available": true,
+                "client_available": true,
+                "end_time": "2024-04-29T13:50:00-07:00",
+                "id": "52e443c7-6611-436c-a4ef-1e6de7e4599f",
+                "start_time": "2024-04-29T13:00:00-07:00"
+            }
+        ]
+    }
+}
