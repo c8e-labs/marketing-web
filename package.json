@@ -1,0 +1,33 @@
+{
+  "name": "widget",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:tsc": "tsc && vite build",
+    "preview": "vite preview",
+    "build:css": "postcss ./src/style.css -o ./public/css/style.css",
+    "css": "tailwindcss -i ./src/style.css -o ./public/css/style.css --watch"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.3",
+    "daisyui": "^4.5.0",
+    "eslint": "^8.56.0",
+    "postcss": "^8.4.33",
+    "postcss-cli": "^11.0.0",
+    "prettier": "^3.1.1",
+    "sharp": "^0.33.1",
+    "svgo": "^3.2.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vanilla-calendar-pro": "^2.9.2",
+    "vite": "^5.0.11",
+    "vite-plugin-image-optimizer": "^1.1.7",
+    "vite-plugin-nunjucks": "^0.2.0"
+  }
+}
