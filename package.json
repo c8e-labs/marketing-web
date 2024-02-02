@@ -29,5 +29,8 @@
     "vite": "^5.0.11",
     "vite-plugin-image-optimizer": "^1.1.7",
     "vite-plugin-nunjucks": "^0.2.0"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.6.1"
   }
 }
