@@ -8,7 +8,7 @@ const data = JSON.parse(fs.readFileSync('./src/data.json'));
 
 export default defineConfig({
   // base: '/marketing-web/',
-  base: '//',
+  base: '/',
   // project related config
   plugins: [
     // ViteImageOptimizer(),
