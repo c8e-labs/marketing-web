@@ -7,8 +7,13 @@ module.exports = {
           'text-shadow': '0 0 0 rgb(240 253 250)'
         },
         fontFamily: {
-          sans: ["Inter", "sans-serif"],
-          // sans: ["Kanit", "sans-serif"],
+          // sans: ["Inter", "sans-serif"],
+          poppins: ["Poppins", "sans-serif"],
+          inter: ["Inter", "sans-serif"],
+          kanit: ["Kanit", "sans-serif"],
+          montserrat: ["Montserrat", "sans-serif"],
+          hubot: ["Hubot Sans", "sans-serif"],
+          mona: ["Mona Sans", "sans-serif"],
           // add more fonts ...name: [...source-of-font]
         },
         transitionProperty: {

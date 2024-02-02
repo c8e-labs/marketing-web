@@ -7,6 +7,7 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 const data = JSON.parse(fs.readFileSync('./src/data.json'));
 
 export default defineConfig({
+  base: 'marketing-web',
   // project related config
   plugins: [
     ViteImageOptimizer(),
@@ -47,7 +48,6 @@ export default defineConfig({
       }
     }),
   ],
-  base: '/marketing-web/',
   server: {
     host: true,
     port: 3000, // change port number if you prefer
