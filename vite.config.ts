@@ -47,6 +47,7 @@ export default defineConfig({
       }
     }),
   ],
+  base: '/marketing-web/',
   server: {
     host: true,
     port: 3000, // change port number if you prefer
