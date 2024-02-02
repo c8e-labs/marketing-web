@@ -2,15 +2,15 @@ import { defineConfig } from "vite";
 import nunjucks from 'vite-plugin-nunjucks';
 import { resolve } from 'path';
 import * as fs from 'fs';
-import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
+// import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 const data = JSON.parse(fs.readFileSync('./src/data.json'));
 
 export default defineConfig({
-  // base: '/marketing-web/',
+  base: '/marketing-web/',
   // project related config
   plugins: [
-    ViteImageOptimizer(),
+    // ViteImageOptimizer(),
     nunjucks({
       templatesDir: resolve(__dirname, '.'),
       variables: {
