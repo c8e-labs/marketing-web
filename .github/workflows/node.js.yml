@@ -44,15 +44,15 @@ jobs:
         name: production-files
         path: ./dist
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
+  # deploy:
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   name: Deploy
+  #   needs: build
+  #   runs-on: ubuntu-latest
 
-    steps:
+  #   steps:
     - name: Download artifact
       uses: actions/download-artifact@v3
       with:
