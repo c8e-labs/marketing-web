@@ -4,9 +4,19 @@ import { resolve } from 'path';
 import * as fs from 'fs';
 // import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
-const data = JSON.parse(fs.readFileSync('./src/data.json'));
+const data = JSON.parse(fs.readFileSync('./src/data.json').toString());
+
+const build = {
+  rollupOptions: {
+    input: {
+      'access-control-system': "case-study-access-control-sytem/index.html",
+      'digital-twin': "case-study-digital-twin/index.html",
+    },
+  },
+};
 
 export default defineConfig({
+  build,
   base: '/',
   // base: '/',
   // project related config
