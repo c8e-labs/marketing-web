@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["*.{html, css, js, ts}"],
+    content: [
+      "*.{html, css, js, ts}",
+      "./case-study-access-control-sytem/index.html",
+      "./case-study-digital-twin/index.html",
+    ],
     theme: {
       extend: {
         dropShadow: {
