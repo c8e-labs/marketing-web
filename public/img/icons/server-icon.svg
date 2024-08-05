@@ -1,0 +1,22 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M59 31C59 25.4772 54.5228 21 49 21C49 12.1634 41.8366 5 33 5C25.5409 5 19.274 10.1042 17.5014 17.0103C17.3351 17.0035 17.168 17 17 17C10.3726 17 5 22.3726 5 29C5 35.6274 10.3726 41 17 41H49C54.5228 41 59 36.5228 59 31Z" fill="white"/>
+<path d="M49 21H48C48 21.5523 48.4477 22 49 22V21ZM17.5014 17.0103L17.4604 18.0094C17.9318 18.0288 18.3527 17.716 18.47 17.2589L17.5014 17.0103ZM49 22C53.9706 22 58 26.0294 58 31H60C60 24.9249 55.0751 20 49 20V22ZM33 6C41.2843 6 48 12.7157 48 21H50C50 11.6112 42.3888 4 33 4V6ZM18.47 17.2589C20.1319 10.7842 26.0085 6 33 6V4C25.0734 4 18.4161 9.42412 16.5328 16.7617L18.47 17.2589ZM17 18C17.1543 18 17.3077 18.0032 17.4604 18.0094L17.5425 16.0111C17.3625 16.0037 17.1817 16 17 16V18ZM6 29C6 22.9249 10.9249 18 17 18V16C9.8203 16 4 21.8203 4 29H6ZM17 40C10.9249 40 6 35.0751 6 29H4C4 36.1797 9.8203 42 17 42V40ZM49 40H17V42H49V40ZM58 31C58 35.9706 53.9706 40 49 40V42C55.0751 42 60 37.0751 60 31H58Z" fill="black"/>
+<rect x="12" y="29" width="40" height="12" rx="2" fill="white"/>
+<path d="M24 29H50C51.1046 29 52 29.8954 52 31V39C52 40.1046 51.1046 41 50 41H14C12.8954 41 12 40.1046 12 39V31C12 29.8954 12.8954 29 14 29H20" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path d="M36 33V37" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path d="M40 33V37" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path d="M44 33V37" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path d="M48 33V37" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<circle cx="17" cy="35" r="2" fill="black"/>
+<rect x="12" y="45" width="40" height="12" rx="2" fill="white"/>
+<path d="M34 57H14C12.8954 57 12 56.1046 12 55V47C12 45.8954 12.8954 45 14 45H50C51.1046 45 52 45.8954 52 47V55C52 56.1046 51.1046 57 50 57H38" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path d="M36 49V53" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path d="M40 49V53" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path d="M44 49V53" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path d="M48 49V53" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<circle cx="17" cy="51" r="2" fill="black"/>
+<rect x="15" y="41" width="34" height="4" fill="black"/>
+<path d="M15 57H23V59C23 59.5523 22.5523 60 22 60H16C15.4477 60 15 59.5523 15 59V57Z" fill="black"/>
+<path d="M41 57H49V59C49 59.5523 48.5523 60 48 60H42C41.4477 60 41 59.5523 41 59V57Z" fill="black"/>
+<path d="M52 31H53C54.1046 31 55 31.8954 55 33V39H52V31Z" fill="black" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+</svg>

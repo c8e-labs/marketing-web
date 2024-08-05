@@ -1,0 +1,23 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M44.7239 40.7932C39.0052 47.8984 32 50 32 50C32 50 12 44 12 18C20 18 24 10 24 10H26M46.7216 38C49.7311 33.2456 52 26.7573 52 18C44 18 40 10 40 10H30" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="32" cy="22" r="4" fill="white" stroke="black" stroke-width="2"/>
+<path d="M40 34.3333C40 36.5425 36.4183 37 32 37C27.5817 37 24 36.5425 24 34.3333C24 32.1242 27.5817 29 32 29C36.4183 29 40 32.1242 40 34.3333Z" fill="white" stroke="black" stroke-width="2"/>
+<path d="M13 5H9C6.79086 5 5 6.79086 5 9V13" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M51 5H55C57.2091 5 59 6.79086 59 9V13" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 51V55C5 57.2091 6.79086 59 9 59H13" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M59 51V55C59 57.2091 57.2091 59 55 59H51" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="18" y="46" width="28" height="8" rx="4" fill="white" stroke="black" stroke-width="2"/>
+<circle cx="23" cy="50" r="2" fill="black"/>
+<circle cx="29" cy="50" r="2" fill="black"/>
+<circle cx="35" cy="50" r="2" fill="black"/>
+<circle cx="41" cy="50" r="2" fill="black"/>
+<mask id="mask0_274_45" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="12" y="34" width="32" height="20">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M44 34V42V50C44 52.2091 36.8366 54 28 54C19.1634 54 12 52.2091 12 50V42V34H44Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_274_45)">
+<circle cx="40" cy="53" r="8" fill="black" stroke="black" stroke-width="2"/>
+</g>
+<circle cx="42" cy="51" r="8" fill="white"/>
+<path d="M46 57.9297C44.8233 58.6104 43.4571 59 42 59C37.5817 59 34 55.4183 34 51C34 46.5817 37.5817 43 42 43C46.4183 43 50 46.5817 50 51C50 52.8078 49.4004 54.4755 48.3892 55.8151" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path d="M42 48V51H47" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
