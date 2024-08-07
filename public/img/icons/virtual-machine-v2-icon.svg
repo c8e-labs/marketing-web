@@ -1,11 +1,1 @@
-<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="23" y="1" width="10" height="4" fill="#636363" stroke="black" stroke-linejoin="round"/>
-<rect x="1" y="5" width="54" height="34" rx="2" fill="#ABABAB" stroke="black"/>
-<rect x="3" y="7" width="50" height="30" rx="1" fill="#3A3A3A"/>
-<path d="M28 21L38 16V28L28 33V21Z" fill="#202028"/>
-<path d="M18 16L28 21V33L18 28V16Z" fill="#EFEFEF"/>
-<path d="M28 11L38 16L28 21L18 16L28 11Z" fill="#636363"/>
-<rect x="21" y="39" width="14" height="16" fill="#636363" stroke="black"/>
-<path d="M12 55H44" stroke="#202028" stroke-width="2" stroke-linecap="round"/>
-<rect x="21" y="39" width="14" height="6" fill="#3A3A3A" stroke="black"/>
-</svg>
+<svg fill="none" height="56" viewBox="0 0 56 56" width="56" xmlns="http://www.w3.org/2000/svg"><path d="m23 1h10v4h-10z" fill="#636363" stroke="#000" stroke-linejoin="round"/><rect fill="#ababab" height="34" rx="2" stroke="#000" width="54" x="1" y="5"/><rect fill="#3a3a3a" height="30" rx="1" width="50" x="3" y="7"/><path d="m28 21 10-5v12l-10 5z" fill="#202028"/><path d="m18 16 10 5v12l-10-5z" fill="#efefef"/><path d="m28 11 10 5-10 5-10-5z" fill="#636363"/><path d="m21 39h14v16h-14z" fill="#636363" stroke="#000"/><path d="m12 55h32" stroke="#202028" stroke-linecap="round" stroke-width="2"/><path d="m21 39h14v6h-14z" fill="#3a3a3a" stroke="#000"/></svg>
