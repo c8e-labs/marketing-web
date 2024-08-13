@@ -1,15 +1,1 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M5 11H59V43C59 44.1046 58.1046 45 57 45H7C5.89543 45 5 44.1046 5 43V11Z" fill="white"/>
-<path d="M5 33V11H59V43C59 44.1046 58.1046 45 57 45H7C5.89543 45 5 44.1046 5 43V37" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M47 5H7C5.89543 5 5 5.89543 5 7V11H59V7C59 5.89543 58.1046 5 57 5H51" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="9" cy="8" r="1" fill="black"/>
-<circle cx="12" cy="8" r="1" fill="black"/>
-<circle cx="15" cy="8" r="1" fill="black"/>
-<rect x="10" y="16" width="16" height="24" rx="1" fill="black"/>
-<rect x="30" y="16" width="24" height="6" rx="1" fill="black"/>
-<rect x="30" y="26" width="24" height="14" rx="1" fill="black"/>
-<path d="M35 29C26.1634 29 19 36.1634 19 45H51C51 36.1634 43.8366 29 35 29Z" fill="black" stroke="black" stroke-width="2"/>
-<circle cx="32" cy="43" r="16" fill="white"/>
-<path d="M40 56.8595C37.6466 58.2208 34.9143 59 32 59C23.1634 59 16 51.8366 16 43C16 34.1634 23.1634 27 32 27C40.8366 27 48 34.1634 48 43C48 46.6155 46.8008 49.9509 44.7784 52.6302" stroke="black" stroke-width="2" stroke-linecap="round"/>
-<path d="M32 37V43H42" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg fill="none" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg"><path d="m5 11h54v32c0 1.1046-.8954 2-2 2h-50c-1.10457 0-2-.8954-2-2z" fill="#fff"/><path d="m5 33v-22h54v32c0 1.1046-.8954 2-2 2h-50c-1.10457 0-2-.8954-2-2v-6" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="m47 5h-40c-1.10457 0-2 .89543-2 2v4h54v-4c0-1.10457-.8954-2-2-2h-6" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><g fill="#000"><circle cx="9" cy="8" r="1"/><circle cx="12" cy="8" r="1"/><circle cx="15" cy="8" r="1"/><rect height="24" rx="1" width="16" x="10" y="16"/><rect height="6" rx="1" width="24" x="30" y="16"/><rect height="14" rx="1" width="24" x="30" y="26"/><path d="m35 29c-8.8366 0-16 7.1634-16 16h32c0-8.8366-7.1634-16-16-16z" stroke="#000" stroke-width="2"/></g><circle cx="32" cy="43" fill="#fff" r="16"/><path d="m40 56.8595c-2.3534 1.3613-5.0857 2.1405-8 2.1405-8.8366 0-16-7.1634-16-16s7.1634-16 16-16 16 7.1634 16 16c0 3.6155-1.1992 6.9509-3.2216 9.6302" stroke="#000" stroke-linecap="round" stroke-width="2"/><path d="m32 37v6h10" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
