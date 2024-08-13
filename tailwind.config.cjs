@@ -4,6 +4,8 @@ module.exports = {
       "*.{html, css, js, ts}",
       "./case-study-access-control-sytem/index.html",
       "./case-study-digital-twin/index.html",
+      "./case-study-bridging-physical-digital-retail/index.html",
+      "./case-study-air-quality-sensors/index.html",
     ],
     theme: {
       extend: {
