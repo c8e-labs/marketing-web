@@ -11,6 +11,7 @@ const build = {
     input: {
       'access-control-system': "case-study-access-control-sytem/index.html",
       'digital-twin': "case-study-digital-twin/index.html",
+      'air-quality': "case-study-air-quality-sensors/index.html",
     },
   },
 };
