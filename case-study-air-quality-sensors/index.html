@@ -179,8 +179,10 @@
             </div>
         </article>
 
-        <div>
-            <img src="/img/dashboards/locations_01.png" alt="dashbaord">
+        <div class="relative group overflow-hidden">
+            <img src="/img/dashboards/locations_01.png"
+                class="w-full h-full object-cover  transition-transform duration-500 group-hover:scale-105"
+                alt="dashbaord">
         </div>
 
         <!-- <div class="bg-white py-20 px-8">
@@ -200,19 +202,19 @@
                         </p>
                     </div>
                     <div class="bg-white p-8 rounded-lg shadow-xs space-y-4">
-                        <img src="/img/icons/touch-icon.svg" class="mx-auto">
+                        <img src="/img/icons/air-quality-alert-icon.svg" class="mx-auto">
                         <p class="sm:text-lg lg:text-2xl">
                             Automated alerts for air quality issues.
                         </p>
                     </div>
                     <div class="bg-white p-8 rounded-lg shadow-xs space-y-4">
-                        <img src="/img/icons/ui-real-time-browser-icon.svg" class="mx-auto w-14">
+                        <img src="/img/icons/air-quality-monitoring-icon.svg" class="mx-auto w-14">
                         <p class="sm:text-lg lg:text-2xl">
                             Real-time air quality monitoring.
                         </p>
                     </div>
                     <div class="bg-white p-8 rounded-lg shadow-xs space-y-4">
-                        <img src="/img/icons/conveyor-icon.svg" class="mx-auto">
+                        <img src="/img/icons/data-trends-icon.svg" class="mx-auto">
                         <p class="sm:text-lg lg:text-2xl">
                             Historical data analysis and trending.
                         </p>
@@ -388,58 +390,59 @@
             </div>
         </article>
 
-        <!-- <article class="bg-aquamarine-300 flex flex-col items-start space-y-2 p-8 pt-14 pb-14 sm:pt-40 sm:pb-40 lg:pt-64 lg:pb-64 lg:mb-40 bg-[url('/img/pattern_01.svg')] bg-bottom bg-no-repeat bg-cover overflow-hidden">
-            <div class="w-full">
-                <span class="pl-1 sm:pl-3 text-raisin-800 uppercase text-xs font-semibold">
-                    A Human Centered technology partner
-                </span>
-            </div>
-            <h3 class="font-black text-6xl sm:text-[calc(8rem+0.5vw)] lg:text-[calc(6rem+10vw)] text-balance leading-[0.9] text-raisin-800">
-                Working, together
-            </h3>
-            <div class="pt-8 grid sm:grid-cols-3">
-                <div></div>
-                <p class="col-span-2 max-w-xl lg:max-w-2xl text-2xl lg:text-4xl text-raisin-700/90">
-                    We are makers at our core, combining our passion for solving problems with a deep understanding that human centered solutions are always more impactful. We bake this belief into an intentional practice that transforms how partners approach new challenges.
-                </p>
-            </div>
-        </article> -->
-
-        <!-- <div class="sm:px-20 pt-14 pb-40">
-            <div class="grid sm:grid-cols-2 gap-x-12 items-end mt-20 p-8 sm:p-0 pt-10">
-                <h2 class="col-span-auto font-black text-6xl lg:text-[9vw] text-balance leading-[0.9] text-aquamarine-300">
-                    Working, together.
-                </h2>
-                <p class="pt-6 text-2xl lg:text-4xl">
-                    Partnership tailored to you.
-                </p>
-            </div>
-            <div class="flex flex-col items-center mt-8 sm:mt-20 p-8 pt-10 bg-slate-500/50 xbg-pink-500/50">
-                <div class="flex flex-col space-y-8">
-                    <h3 class="max-w-3xl text-2xl lg:text-4xl text-pretty md:col-start-2 md:col-span-10 leading-tight headline-spacing words lines splitting">
-                        We love to partner with ambitious and visionary clients. Our approach is driven by passion for our craft and curiosity for your tasks. We are always happy to discuss opportunities and ideas. Write us an email or give us a call.
-                    </h3>
-
-                    <div class="">
-                        <a class="bg-slate-500 hover:bg-aquamarine-200 transition-all text-center group border inline-block px-5 py-3 md:px-7 md:py-3 duration-300 text-white hover:text-raisin-800  hover:border-white border-midwhite" href="mailto:hello@c8e.io?subject=Inquiry" target="_blank" rel="noopener noreferrer">
-                            <span class="uppercase text-sm font-bold">
-                                Send Mail
-                            </span>
-                            <span class="font-kanit overflow-hidden inline-flex w-[16px] justify-end pl-4 md:pl-8">
-                                <span class="inline-block duration-200 ease-in-out group-hover:translate-x-full pr-4">→</span>
-                                <span class="inline-block duration-200 ease-in-out group-hover:translate-x-full">→</span>
-                            </span>
-                        </a>
+        <article>
+            <div class="grid md:grid-cols-2 grid-cols-1 p-4 gap-4 bg-raisin-800 my-14">
+                <!-- Card 1 -->
+                <div class="relative group overflow-hidden select-none h-[500px]">
+                    <img src="/img/access_control/readers_002.jpg"
+                         class="w-full h-full object-cover  transition-transform duration-500 group-hover:scale-125 group-hover:blur-sm"
+                         alt="Access Control">
+                    <div class="absolute inset-0 bg-raisin-950 bg-opacity-40"></div>
+                    <span class="absolute left-4 top-4 uppercase text-xs font-semibold mb-10 w-full">
+                        <span class="border-b-2 border-raisin-300 group-hover:border-pink-500 pb-2">
+                            Case Study
+                        </span>
+                    </span>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-8">
+                        <h5 class="text-3xl font-medium capitalize text-white text-center group-hover:-translate-y-4 transition-all">
+                            Validating a Unified Global Access Control Concept for a Real Estate Portfolio
+                        </h5>
                     </div>
                 </div>
+                <!-- Card 2 -->
+                <div class="relative group overflow-hidden select-none h-[500px]">
+                    <img src="/img/dashboards/dashboard_02.png"
+                         class="w-full h-full object-cover  transition-transform duration-500 group-hover:scale-125 group-hover:blur-sm"
+                         alt="Digital Twin">
+                    <div class="absolute inset-0 bg-raisin-950 bg-opacity-40"></div>
+                    <span class="absolute left-4 top-4 uppercase text-xs font-semibold mb-10 w-full">
+                        <span class="border-b-2 border-raisin-300 group-hover:border-pink-500 pb-2">
+                            Case Study
+                        </span>
+                    </span>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-8">
+                        <h5 class="text-3xl font-medium capitalize text-white text-center group-hover:-translate-y-4 transition-all">
+                            Creating a Digital Twin for Physical Space Optimization
+                        </h5>
+                    </div>
+                </div>
+                <!-- <div class="p-20 bg-[url('/img/dashboards/dashboard_03.png')] bg-bottom bg-no-repeat bg-cover overflow-hidden">
+                            <h5 class="text-2xl font-medium capitalize text-raisin-100 shadow-md">
+                                Bridging Physical And Digital Retail With Interactive Technology
+                            </h5>
+                            <p>
+
+                            </p>
+                        </div> -->
             </div>
-        </div> -->
+        </article>
+
     </div>
 
         <!-- FOOTER -->
     <div class="sticky bottom-0 left-0 right-0 z-0 bg-raisin-900 bg-[url('/img/pattern_003.svg')] bg-bottom bg-no-repeat bg-cover overflow-hidden">
-        <div class="px-8 sm:px-20 pt-10 sm:pt-14 pb-1">
-            <div class="text-raisin-50 text-6xl sm:text-[calc(8rem+0.5vw)] lg:text-[calc(6rem+10vw)] -space-y-2 sm:-space-y-4">
+        <div class="px-8 sm:px-20 pt-14 spb-1">
+            <div class="text-raisin-50 text-6xl sm:text-[calc(8rem+0.5vw)] lg:text-[calc(5rem+10vw)] -space-y-2 sm:-space-y-4">
                 <p class="font-black lowercase">Collective</p>
                 <p class="font-black lowercase">
                     Labs
@@ -464,7 +467,7 @@
                     </a>
                 </div>
             </div>
-            <footer class="mt-60 flex justify-between">
+            <footer class="mt-60 lg:mt-32 flex justify-between">
                 <div>
                     <div class="logo flex justify-center items-center">
                         <img src="/img/logo/logo_light_v6.svg" class="h-10">
