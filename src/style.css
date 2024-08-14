@@ -71,26 +71,24 @@ body {
 @layer utilities {
 
   .pointer-wrapper:hover {
-      cursor: none;
+    cursor: none;
   }
 
   .group:hover .custom-pointer {
-      display: flex;
-      position: absolute;
-      top: var(--mouse-y);
-      left: var(--mouse-x);
-      transform: translate(-50%, -50%);
+    display: flex;
+    position: absolute;
+    top: var(--mouse-y);
+    left: var(--mouse-x);
+    transform: translate(-50%, -50%);
   }
 
-  /* Update the pointer position based on mouse movement */
   .pointer-wrapper:hover {
-      --mouse-x: calc(var(--mouse-x) + 50%);
-      --mouse-y: calc(var(--mouse-y) + 50%);
+    --mouse-x: calc(var(--mouse-x) + 50%);
+    --mouse-y: calc(var(--mouse-y) + 50%);
   }
 
   .pointer-wrapper {
-      position: relative;
-      background-color: aqua;
+    position: relative;
   }
 
   .font-wide {
