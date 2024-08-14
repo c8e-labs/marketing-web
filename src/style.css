@@ -65,7 +65,7 @@ body {
 }
 
 ::selection {
-  background: #f472b6;
+  background: rgba(244,114,182, 0.3);
 }
 
 @layer utilities {
