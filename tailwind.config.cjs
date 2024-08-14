@@ -8,6 +8,8 @@ module.exports = {
       "./case-study-digital-twin/index.html",
       "./case-study-bridging-physical-digital-retail/index.html",
       "./case-study-air-quality-sensors/index.html",
+      "./labs/index.html",
+      "./studio/index.html",
     ],
     theme: {
       extend: {
