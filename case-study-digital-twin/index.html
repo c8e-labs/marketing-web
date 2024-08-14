@@ -23,19 +23,20 @@
         <meta property="og:type" content="website">
     </head>
 
-    <body class="min-h-screen flex flex-col antialiased bg-raisin-800 text-raisin-200">
+<body class="min-h-screen flex flex-col antialiased bg-raisin-800 text-raisin-200">
+    <div class="flex-grow bg-raisin-800 z-50">
+
         <div class="px-4 pt-14 sm:px-20 pb-1">
             <div class="-ml-4 h-16 mb-10 sm:mb-24 flex flex-row items-center justify-between">
                 <div class="logo inline-flex justify-center items-center">
                     <img src="/img/logo/colabs_logotype_light_v6.svg" class="h-12">
-                    <!-- <span class="-mt-3 -ml-2 text-xs font-sans">&copy;</span> -->
                 </div>
             </div>
 
             <main class="grow flex flex-col justify-center align-middle">
                 <div class="mx-auto">
                     <h2 class="uppercase text-xs font-semibold mb-10">
-                        <span class="border-b-4 border-raisin-300 pb-2">
+                        <span class="border-b-4 border-raisin-300 pb-2 font-mono">
                             Case Study
                         </span>
                     </h2>
@@ -54,7 +55,7 @@
             <div class="mb-10">
                 <div class="grid grid-flow-col grid-rows-2 sm:grid-rows-1 p-4 gap-x-5">
                     <div class="row-span-1 mx-auto">
-                        <div class="uppercase text-xs font-semibold mb-2 text-raisin-500">
+                        <div class="uppercase text-xs font-semibold mb-2 text-raisin-500 font-mono">
                             Engagement
                         </div>
                         <h4 class="flex-1 mt-4 mb-6 text-lg lg:text-2xl font-semibold">
@@ -62,7 +63,7 @@
                         </h4>
                     </div>
                     <div class="row-span-1 mx-auto">
-                        <div class="uppercase text-xs font-semibold mb-2 text-raisin-500">
+                        <div class="uppercase text-xs font-semibold mb-2 text-raisin-500 font-mono">
                             Industry
                         </div>
                         <h4 class="flex-1 mt-4 mb-6 text-lg lg:text-2xl font-semibold">
@@ -70,7 +71,7 @@
                         </h4>
                     </div>
                     <div class="row-span-1 mx-auto">
-                        <div class="uppercase text-xs font-semibold mb-2 text-raisin-500">
+                        <div class="uppercase text-xs font-semibold mb-2 text-raisin-500 font-mono">
                             Timeline
                         </div>
                         <h4 class="flex-1 mt-4 mb-6 text-lg lg:text-2xl font-semibold">
@@ -78,7 +79,7 @@
                         </h4>
                     </div>
                     <div class="row-span-1 mx-auto">
-                        <div class="uppercase text-xs font-semibold mb-2 text-raisin-500">
+                        <div class="uppercase text-xs font-semibold mb-2 text-raisin-500 font-mono">
                             Services
                         </div>
                         <h4 class="flex-1 mt-4 mb-6 text-lg lg:text-2xl font-semibold">
@@ -101,7 +102,8 @@
 
             <div class="p-4">
                 <div class="grid grid-flow-row sm:grid-flow-col gap-8 justify-items-start">
-                    <h4 class="uppercase text-xs font-semibold mb-10 mt-5">
+                    <h4 class="uppercase text-xs font-semibold mb-10 mt-6 font-mono">
+                        <span class="text-raisin-400 ">1.0</span>
                         About the project
                     </h4>
                     <div class="flex flex-col gap-y-6 sm:pr-10 lg:pr-20 lg:mx-56">
@@ -145,7 +147,8 @@
             </div>
 
             <div class="pt-20 p-5 pb-10 sm:pt-30 flex flex-col">
-                <span class="text-raisin-800 uppercase text-xs font-semibold pb-4">
+                <span class="text-raisin-800 uppercase text-xs font-semibold pb-4 font-mono">
+                    <span class="text-raisin-400 ">2.0</span>
                     Solution Overview
                 </span>
                 <h3 class="font-bold text-2xl sm:text-4xl lg:text-5xl text-balance leading-[0.9] text-center">
@@ -172,13 +175,16 @@
             </div>
         </article>
 
-        <div class="">
-            <img src="/img/dashboards/dashboard_02.png" alt="dashbaord">
+        <div class="relative group overflow-hidden">
+            <img src="/img/dashboards/dashboard_02.png"
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            alt="dashbaord">
         </div>
 
         <article class="pr-0 pt-8 sm:p-8 sm:pt-32 bg-raisin-50  text-raisin-800">
             <div class="pt-6 p-5 pb-44 sm:pt-10 flex flex-col">
-                <span class="text-raisin-800 uppercase text-xs font-semibold pb-4">
+                <span class="text-raisin-800 uppercase text-xs font-semibold pb-4 font-mono">
+                    <span class="text-raisin-400 ">3.0</span>
                     Key Features
                 </span>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 mx-auto font-medium text-center">
@@ -218,7 +224,8 @@
 
         <article class="bg-raisin-900 pt-10 sm:pt-32 pb-44 px-8 sm:px-6 text-[#fffffa]">
             <div class="grid grid-flow-row sm:grid-flow-col gap-8 lg:gap-x-32 justify-items-start">
-                <span class="uppercase text-xs font-semibold pb-4 mt-2">
+                <span class="uppercase text-xs font-semibold pb-4 mt-2 font-mono">
+                    <span class="text-raisin-400 ">4.0</span>
                     The Result
                 </span>
                 <div class="grid sm:grid-cols-2 gap-6 sm:pr-10 lg:pr-20 lg:mr-20">
@@ -270,7 +277,8 @@
             </div>
 
             <div class="grid grid-flow-row sm:grid-flow-col gap-8 lg:gap-x-32 justify-items-start pt-28">
-                <h4 class="uppercase text-xs font-semibold mb-10 mt-2">
+                <h4 class="uppercase text-xs font-semibold mb-10 mt-2 font-mono">
+                    <span class="text-raisin-400 ">4.1</span>
                     Conclusion
                 </h4>
                 <div class="flex flex-col gap-y-6 sm:pr-10 lg:pr-20 lg:mx-56">
@@ -283,7 +291,8 @@
 
         <article class="pr-0 pt-8 sm:p-8 sm:pt-20 bg-raisin-50  text-raisin-800">
             <div class="pt-6 p-5 pb-32 sm:pt-10">
-                <span class="text-raisin-800 uppercase text-xs font-semibold pb-4">
+                <span class="text-raisin-800 uppercase text-xs font-semibold pb-4 font-mono">
+                    <span class="text-raisin-400 ">5.0</span>
                     Technologies
                 </span>
                 <div class="p-0 flex">
@@ -377,55 +386,98 @@
             </div>
         </article>
 
-        <article class="bg-aquamarine-300 flex flex-col items-start space-y-2 p-8 pt-14 pb-14 sm:pt-40 sm:pb-40 lg:pt-64 lg:pb-64 lg:mb-40 bg-[url('/img/pattern_01.svg')] bg-bottom bg-no-repeat bg-cover overflow-hidden">
-            <div class="w-full">
-                <span class="pl-1 sm:pl-3 text-raisin-800 uppercase text-xs font-semibold">
-                    A Human Centered technology partner
-                </span>
-            </div>
-            <h3 class="font-black text-6xl sm:text-[calc(8rem+0.5vw)] lg:text-[calc(6rem+10vw)] text-balance leading-[0.9] text-raisin-800">
-                Collective
-            </h3>
-            <div class="pt-8 grid sm:grid-cols-3">
-                <div></div>
-                <p class="col-span-2 max-w-xl lg:max-w-2xl text-2xl lg:text-4xl text-raisin-700/90">
-                    We are makers at our core, combining our passion for solving problems with a deep understanding that human centered solutions are always more impactful. We bake this belief into an intentional practice that transforms how partners approach new challenges.
-                </p>
+        <article class="bg-raisin-50 flex flex-col p-4 pb-32 border-b-8 border-b-pink-500">
+            <span class="inline-flex text-raisin-800 uppercase text-xs font-semibold mb-6 font-mono">
+                <div class="w-[0.8em] h-[0.8em] bg-current mt-[0.3em] mr-2"></div>
+                Related Projects
+            </span>
+            <div class="grid md:grid-cols-2 grid-cols-1 gap-4">
+                <!-- Card 1 -->
+                <a href="/case-study-access-control-sytem/" class="pointer-wrapper relative group overflow-hidden select-none h-[500px] block">
+                    <img src="/img/access_control/readers_002.jpg"
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-125 group-hover:blur-sm"
+                         alt="Access Control">
+                    <div class="absolute inset-0 bg-raisin-950 bg-opacity-40"></div>
+                    <span class="absolute left-4 top-4 uppercase text-xs font-semibold mb-10 w-full">
+                        <span class="border-b-2 border-raisin-300 group-hover:border-pink-500 pb-2 font-mono">
+                            Case Study
+                        </span>
+                    </span>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-8">
+                        <h5 class="text-3xl font-medium capitalize text-white text-center group-hover:-translate-y-4 transition-all">
+                            Validating a Unified Global Access Control Concept for a Real Estate Portfolio
+                        </h5>
+                    </div>
+                    <!-- Custom pointer circle -->
+                    <div class="hidden group-hover:flex items-center justify-center w-16 h-16 rounded-full bg-pink-500 text-raisin-900 font-semibold text-xl absolute pointer-events-none custom-pointer">
+                      ←
+                    </div>
+                </a>
+                <!-- Card 2 -->
+                <a href="/case-study-digital-twin/" class="pointer-wrapper relative group overflow-hidden select-none h-[500px] block">
+                    <img src="/img/dashboards/dashboard_02.png"
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-125 group-hover:blur-sm"
+                         alt="Digital Twin">
+                    <div class="absolute inset-0 bg-raisin-950 bg-opacity-40"></div>
+                    <span class="absolute left-4 top-4 uppercase text-xs font-semibold mb-10 w-full">
+                        <span class="border-b-2 border-raisin-300 group-hover:border-pink-500 pb-2 font-mono">
+                            Case Study
+                        </span>
+                    </span>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-8">
+                        <h5 class="text-3xl font-medium capitalize text-white text-center group-hover:-translate-y-4 transition-all">
+                            Creating a Digital Twin for Physical Space Optimization
+                        </h5>
+                    </div>
+                    <!-- Custom pointer circle -->
+                    <div class="hidden group-hover:flex items-center justify-center w-16 h-16 rounded-full bg-pink-500 text-raisin-900 font-semibold text-xl absolute pointer-events-none custom-pointer">
+                        →
+                    </div>
+                </a>
             </div>
         </article>
+        <script>
+            document.querySelectorAll('.pointer-wrapper').forEach(card => {
+                card.addEventListener('mousemove', function(e) {
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    card.style.setProperty('--mouse-x', `${x}px`);
+                    card.style.setProperty('--mouse-y', `${y}px`);
+                });
+            });
+        </script>
+    </div>
 
-        <div class="sm:px-20 pt-14 pb-1">
-            <div class="grid sm:grid-cols-2 gap-x-12 items-end mt-20 p-8 sm:p-0 pt-10">
-                <h2 class="col-span-auto font-black text-6xl lg:text-[9vw] text-balance leading-[0.9] text-aquamarine-300">
-                    Working, together.
-                </h2>
-                <p class="pt-6 text-2xl lg:text-4xl">
-                    Partnership tailored to you.
+    <!-- FOOTER -->
+    <div class="sticky bottom-0 left-0 right-0 z-0 bg-raisin-900 bg-[url('/img/pattern_003.svg')] bg-bottom bg-no-repeat bg-cover overflow-hidden">
+        <div class="px-8 sm:px-20 pt-14 spb-1">
+            <div class="text-raisin-50 text-6xl sm:text-[calc(8rem+0.5vw)] lg:text-[calc(5rem+10vw)] -space-y-2 sm:-space-y-4">
+                <p class="font-black lowercase">Collective</p>
+                <p class="font-black lowercase">
+                    Labs
                 </p>
             </div>
-            <div class="flex flex-col items-center mt-8 sm:mt-20 p-8 pt-10 bg-slate-500/50 xbg-pink-500/50">
-                <div class="flex flex-col space-y-8">
-                    <h3 class="max-w-3xl text-2xl lg:text-4xl text-pretty md:col-start-2 md:col-span-10 leading-tight headline-spacing words lines splitting">
-                        We love to partner with ambitious and visionary clients. Our approach is driven by passion for our craft and curiosity for your tasks. We are always happy to discuss opportunities and ideas. Write us an email or give us a call.
-                    </h3>
-
-                    <div class="">
-                        <a class="bg-slate-500 hover:bg-aquamarine-200 transition-all text-center group border inline-block px-5 py-3 md:px-7 md:py-3 duration-300 text-white hover:text-raisin-800  hover:border-white border-midwhite" href="mailto:hello@c8e.io?subject=Inquiry" target="_blank" rel="noopener noreferrer">
-                            <span class="uppercase text-sm font-bold">
-                                Send Mail
-                            </span>
-                            <span class="font-kanit overflow-hidden inline-flex w-[16px] justify-end pl-4 md:pl-8">
-                                <span class="inline-block duration-200 ease-in-out group-hover:translate-x-full pr-4">→</span>
-                                <span class="inline-block duration-200 ease-in-out group-hover:translate-x-full">→</span>
-                            </span>
-                        </a>
-                    </div>
+            <div class="mt-8">
+                <p class="uppercase font-semibold text-xl">
+                    Partnership tailored to you.
+                </p>
+                <p class="uppercase font-semibold text-xl">
+                    Let's work — together.
+                </p>
+                <div class="mt-6">
+                    <a class="bg-aquamarine-50 hover:bg-aquamarine-200 transition-all text-center group border border-aquamarine-50 inline-block px-5 py-3 md:px-7 md:py-3 duration-300 text-raisin-900 hover:text-aquamarine-800 hover:border-aquamarine-50 rounded-full" href="mailto:hello@c8e.io?subject=Inquiry" target="_blank" rel="noopener noreferrer">
+                        <span class="uppercase text-sm font-bold">
+                            Contact Us
+                        </span>
+                        <span class="font-kanit overflow-hidden inline-flex w-[16px] justify-end pl-4 md:pl-8">
+                            <span class="inline-block duration-200 ease-in-out group-hover:translate-x-full pr-4">→</span>
+                            <span class="inline-block duration-200 ease-in-out group-hover:translate-x-full">→</span>
+                        </span>
+                    </a>
                 </div>
             </div>
-        </div>
-
-        <div class="px-8 sm:px-20 sm:pt-14 pb-1">
-            <footer class="mt-60 flex justify-between">
+            <footer class="mt-60 lg:mt-32 flex justify-between">
                 <div>
                     <div class="logo flex justify-center items-center">
                         <img src="/img/logo/logo_light_v6.svg" class="h-10">
@@ -466,12 +518,13 @@
                 </p>
             </div>
         </div>
+    </div>
+    <!-- FOOTER -->
 
+    <div class="bg"></div>
 
-        <!-- <div class="bg"></div> -->
-
-        <script type="module" src="/src/main.ts"></script>
-    </body>
+    <script type="module" src="/src/main.ts"></script>
+</body>
 </html>
 <script type="application/ld+json">
     {
