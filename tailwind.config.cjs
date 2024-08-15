@@ -10,6 +10,7 @@ module.exports = {
       "./case-study-air-quality-sensors/index.html",
       "./labs/index.html",
       "./studio/index.html",
+      "./brands.html",
     ],
     theme: {
       extend: {
