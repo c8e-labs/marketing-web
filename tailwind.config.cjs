@@ -23,12 +23,12 @@ module.exports = {
         },
         fontFamily: {
           // sans: ["Inter", "sans-serif"],
-          poppins: ["Poppins", "sans-serif"],
-          inter: ["Inter", "sans-serif"],
-          kanit: ["Kanit", "sans-serif"],
+          // poppins: ["Poppins", "sans-serif"],
+          // inter: ["Inter", "sans-serif"],
+          // kanit: ["Kanit", "sans-serif"],
           montserrat: ["Montserrat", "sans-serif"],
-          hubot: ["Hubot Sans", "sans-serif"],
-          mona: ["Mona Sans", "sans-serif"],
+          // hubot: ["Hubot Sans", "sans-serif"],
+          // mona: ["Mona Sans", "sans-serif"],
           // add more fonts ...name: [...source-of-font]
         },
         transitionProperty: {
