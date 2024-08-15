@@ -10,9 +10,10 @@ const build = {
   rollupOptions: {
     input: {
       'home': 'index.html',
-      'access-control-system': "case-study-access-control-sytem/index.html",
-      'digital-twin': "case-study-digital-twin/index.html",
-      'air-quality': "case-study-air-quality-sensors/index.html",
+      'case-study-access-control-system': "case-study-access-control-sytem/index.html",
+      'case-study-digital-twin': "case-study-digital-twin/index.html",
+      'case-study-air-quality': "case-study-air-quality-sensors/index.html",
+      'case-study-retail': "case-study-bridging-physical-digital-retail/index.html",
       'labs': "labs/index.html",
       'studio': "studio/index.html",
     },
