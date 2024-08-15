@@ -17,6 +17,13 @@
         <meta property="og:image" content="https://c8e.io/logo.png">
         <meta property="og:url" content="https://c8e.io">
         <meta property="og:type" content="website">
+        <!-- Preconnect to Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- Load Fonts Asynchronously -->
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"></noscript>
     </head>
 
     <body class="min-h-screen flex flex-col antialiased bg-raisin-800 text-raisin-200">
@@ -98,7 +105,7 @@
                                 Send Mail
                             </span>
                             <span class="font-kanit overflow-hidden inline-flex w-[16px] justify-end pl-4 md:pl-8">
-                                <span class="inline-block duration-200 ease-in-out group-hover:translate-x-full pr-4">→</span>
+                                <span class="inline-block duration-200 ease-in-out group-hover:translate-x-full pr-5">→</span>
                                 <span class="inline-block duration-200 ease-in-out group-hover:translate-x-full">→</span>
                             </span>
                         </a>
@@ -162,7 +169,7 @@
 
         <!-- <div class="bg"></div> -->
 
-        <script type="module" src="/src/main.ts"></script>
+        <script type="module" src="/src/main.ts" async></script>
     </body>
 </html>
 <script type="application/ld+json">

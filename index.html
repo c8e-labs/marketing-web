@@ -21,6 +21,14 @@
         <meta property="og:image" content="https://c8e.io/logo.png">
         <meta property="og:url" content="https://c8e.io">
         <meta property="og:type" content="website">
+
+        <!-- Preconnect to Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- Load Fonts Asynchronously -->
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"></noscript>
     </head>
 
 <body class="min-h-screen flex flex-col antialiased bg-raisin-800 text-raisin-200">
@@ -334,7 +342,8 @@
     </div>
 
     <!-- FOOTER -->
-    <div class="sticky bottom-0 left-0 right-0 z-0 bg-raisin-900 bg-[url('/img/pattern_003.svg')] bg-bottom bg-no-repeat bg-cover overflow-hidden">
+    <div class="sticky bottom-0 left-0 right-0 z-0 bg-raisin-900 overflow-hidden">
+        <img src="/img/pattern_003.svg" loading="lazy" alt="Background Pattern" class="absolute inset-0 w-full h-full object-cover bg-bottom bg-no-repeat z-[-1]">
         <div class="px-8 sm:px-20 pt-14 spb-1">
             <div class="text-raisin-50 text-6xl sm:text-[calc(8rem+0.5vw)] lg:text-[calc(5rem+10vw)] -space-y-2 sm:-space-y-4">
                 <p class="font-black lowercase">Collective</p>
@@ -355,7 +364,7 @@
                             Contact Us
                         </span>
                         <span class="font-kanit overflow-hidden inline-flex w-[16px] justify-end pl-4 md:pl-8">
-                            <span class="inline-block duration-200 ease-in-out group-hover:translate-x-full pr-4">→</span>
+                            <span class="inline-block duration-200 ease-in-out group-hover:translate-x-full pr-5">→</span>
                             <span class="inline-block duration-200 ease-in-out group-hover:translate-x-full">→</span>
                         </span>
                     </a>
@@ -364,7 +373,7 @@
             <footer class="mt-60 lg:mt-32 flex justify-between font-mono">
                 <div>
                     <a href="/" class="logo flex justify-center items-center">
-                        <img src="/img/logo/logo_light_v6.svg" class="h-10">
+                        <img src="/img/logo/logo_light_v6.svg" loading="lazy" class="h-10">
                     </a>
                 </div>
                 <div class="space-y-4">
@@ -396,7 +405,7 @@
                 </div>
             </footer>
 
-            <div class="pt-10 font-mono uppercase">
+            <div class="pt-10  font-mono uppercase">
                 <p class="font-light text-[0.57rem] bg-black/20 p-1 text-slate-300 float-right">
                     &#169; 2024 Collective Labs, LLC
                 </p>
@@ -406,7 +415,7 @@
     <!-- FOOTER -->
     <div class="bg"></div>
     <div class="bg"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/main.ts" async></script>
 </body>
 </html>
 <script type="application/ld+json">
