@@ -9,6 +9,7 @@ const data = JSON.parse(fs.readFileSync('./src/data.json').toString());
 const build = {
   rollupOptions: {
     input: {
+      'home': 'index.html',
       'access-control-system': "case-study-access-control-sytem/index.html",
       'digital-twin': "case-study-digital-twin/index.html",
       'air-quality': "case-study-air-quality-sensors/index.html",
