@@ -17,21 +17,20 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-  font-family: 'Mona Sans';
+  font-family: "Mona Sans";
   src:
-    url('/fonts/Mona-Sans.woff2') format('woff2 supports variations'),
-    url('/fonts/Mona-Sans.woff2') format('woff2-variations');
+    url("/fonts/Mona-Sans.woff2") format("woff2 supports variations"),
+    url("/fonts/Mona-Sans.woff2") format("woff2-variations");
   font-weight: 200 900;
   font-stretch: 75% 125%;
 }
 
 @font-face {
-  font-family: 'Hubot Sans';
+  font-family: "Hubot Sans";
   src:
-    url('/fonts/Hubot-Sans.woff2') format('woff2 supports variations'),
-    url('/fonts/Hubot-Sans.woff2') format('woff2-variations');
+    url("/fonts/Hubot-Sans.woff2") format("woff2 supports variations"),
+    url("/fonts/Hubot-Sans.woff2") format("woff2-variations");
   font-weight: 200 900;
   font-stretch: 75% 125%;
 }
@@ -57,7 +56,7 @@
   --border: 240 5.9% 90%;
   --input: 240 5.9% 90%;
   --ring: 240 5% 64.9%;
-  --radius: 0.5rem
+  --radius: 0.5rem;
 }
 
 body {
@@ -65,22 +64,46 @@ body {
   overflow-x: hidden;
 }
 
+::selection {
+  background: rgba(244,114,182, 0.3);
+}
 
 @layer utilities {
+
+  .pointer-wrapper:hover {
+    cursor: none;
+  }
+
+  .group:hover .custom-pointer {
+    display: flex;
+    position: absolute;
+    top: var(--mouse-y);
+    left: var(--mouse-x);
+    transform: translate(-50%, -50%);
+  }
+
+  .pointer-wrapper:hover {
+    --mouse-x: calc(var(--mouse-x) + 50%);
+    --mouse-y: calc(var(--mouse-y) + 50%);
+  }
+
+  .pointer-wrapper {
+    position: relative;
+  }
+
   .font-wide {
     font-stretch: 125%;
   }
 
   .hidden {
-    display: none
+    display: none;
   }
 
   /* .current-appointment {} */
 
   .client-busy {
-    background-color: aliceblue!important;
+    background-color: aliceblue !important;
   }
-
 
   .text-primary-foreground {
     color: hsl(var(--primary-foreground));
@@ -99,15 +122,15 @@ body {
   }
 
   .labs {
-    color: #FB3640;
+    color: #fb3640;
   }
 
   .studio {
-    color: #01BAEF
+    color: #01baef;
   }
 
   .squad {
-    color: #F9B4ED
+    color: #f9b4ed;
   }
 
   .stroked {
@@ -115,35 +138,84 @@ body {
     -webkit-text-stroke: 1px;
   }
 
+  .bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200%;
+    height: 200vh;
+    background: transparent url("/img/noise.png") repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation 0.2s infinite;
+    opacity: 0.99;
+    visibility: visible;
+    pointer-events: none;
+  }
 
-.bg {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  right: -50%;
-  bottom: -50%;
-  width: 200%;
-  height: 200vh;
-  background: transparent url('/img/noise.png') repeat 0 0;
-  background-repeat: repeat;
-  animation: bg-animation .2s infinite;
-  opacity: .99;
-  visibility: visible;
-  pointer-events: none;
-}
+  @keyframes bg-animation {
+    0% {
+      transform: translate(0, 0);
+    }
+    10% {
+      transform: translate(-5%, -5%);
+    }
+    20% {
+      transform: translate(-10%, 5%);
+    }
+    30% {
+      transform: translate(5%, -10%);
+    }
+    40% {
+      transform: translate(-5%, 15%);
+    }
+    50% {
+      transform: translate(-10%, 5%);
+    }
+    60% {
+      transform: translate(15%, 0);
+    }
+    70% {
+      transform: translate(0, 10%);
+    }
+    80% {
+      transform: translate(-15%, 0);
+    }
+    90% {
+      transform: translate(10%, 5%);
+    }
+    100% {
+      transform: translate(5%, 0);
+    }
+  }
 
-@keyframes bg-animation {
-    0% { transform: translate(0,0) }
-    10% { transform: translate(-5%,-5%) }
-    20% { transform: translate(-10%,5%) }
-    30% { transform: translate(5%,-10%) }
-    40% { transform: translate(-5%,15%) }
-    50% { transform: translate(-10%,5%) }
-    60% { transform: translate(15%,0) }
-    70% { transform: translate(0,10%) }
-    80% { transform: translate(-15%,0) }
-    90% { transform: translate(10%,5%) }
-    100% { transform: translate(5%,0) }
-}
+  ol.circle-counter {
+    counter-reset: item;
+  }
 
+  ol.circle-counter li {
+    list-style: none;
+    position: relative;
+    padding-left: 3.5rem;
+    margin-bottom: 1.7rem;
+    counter-increment: item;
+    display: flex;
+    align-items: center;
+  }
+
+  ol.circle-counter li::before {
+    content: counter(item);
+    position: absolute;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.25rem;
+    background-color: #33333d;
+    color: #f1f1f3;
+  }
 }
