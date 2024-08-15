@@ -16,6 +16,7 @@ const build = {
       'case-study-retail': "case-study-bridging-physical-digital-retail/index.html",
       'labs': "labs/index.html",
       'studio': "studio/index.html",
+      'brands': "brands.html",
     },
   },
 };
