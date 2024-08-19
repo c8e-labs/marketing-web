@@ -192,6 +192,7 @@ body {
 
   ol.circle-counter {
     counter-reset: item;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   ol.circle-counter li {
