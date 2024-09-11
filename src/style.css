@@ -70,6 +70,10 @@ body {
 
 @layer utilities {
 
+  .li-arrow {
+    @apply relative before:content-['-'] before:absolute before:-left-4;
+  }
+
   .pointer-wrapper:hover {
     cursor: none;
   }
