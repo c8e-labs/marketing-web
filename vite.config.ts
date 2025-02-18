@@ -14,6 +14,7 @@ const build = {
       'case-study-digital-twin': "case-study-digital-twin/index.html",
       'case-study-air-quality': "case-study-air-quality-sensors/index.html",
       'case-study-retail': "case-study-bridging-physical-digital-retail/index.html",
+      'case-study-health-care': "case-study-streamlining-prescription-deliveries/index.html",
       'product-requirements-document-template': "product-requirements-document-template/index.html",
       'labs': "labs/index.html",
       'studio': "studio/index.html",
