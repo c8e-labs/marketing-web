@@ -1,5 +1,21 @@
 import "./style.css";
+import {
+  initHeroAnimations,
+  initHighlightEffect,
+  initScrollProgress,
+  initSectionReveals,
+  initProcessTimeline,
+  initServicesAnimation,
+  initFooterReveal,
+  initParallax,
+  CustomCursor,
+  initMagneticButtons,
+  initMarquee,
+  refreshScrollTrigger,
+  prefersReducedMotion,
+} from "./animations";
 
+// Pointer tracking (legacy - kept for compatibility)
 document.querySelectorAll(".pointer-wrapper").forEach((node) => {
   const card = node as HTMLElement;
   card.addEventListener("mousemove", function (e: MouseEvent) {
@@ -18,9 +34,10 @@ function onDOMReady(callback: () => void) {
   callback();
 }
 
-function loadContent() {
+async function loadContent() {
   const contentElements = document.querySelectorAll(".js-content");
-  contentElements.forEach(async (element) => {
+
+  const loadPromises = Array.from(contentElements).map(async (element) => {
     const path = element.getAttribute("data-path");
     if (!path) return;
     try {
@@ -34,6 +51,38 @@ function loadContent() {
       console.error("Error loading content:", error);
     }
   });
+
+  await Promise.all(loadPromises);
+
+  // Refresh ScrollTrigger after dynamic content loads
+  refreshScrollTrigger();
+
+  // Initialize marquee after brands content loads
+  initMarquee();
 }
 
-onDOMReady(loadContent);
+function initAnimations() {
+  // Initialize all animation modules
+  initHeroAnimations();
+  initHighlightEffect();
+  initScrollProgress();
+  initSectionReveals();
+  initProcessTimeline();
+  initServicesAnimation();
+  initFooterReveal();
+  initParallax();
+  initMagneticButtons();
+
+  // Initialize custom cursor (disabled on touch devices)
+  if (!prefersReducedMotion && !("ontouchstart" in window)) {
+    new CustomCursor();
+  }
+}
+
+onDOMReady(() => {
+  // Start animations
+  initAnimations();
+
+  // Load dynamic content
+  loadContent();
+});

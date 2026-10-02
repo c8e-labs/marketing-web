@@ -29,6 +29,9 @@
     </head>
 
 <body class="min-h-screen flex flex-col antialiased bg-raisin-800 text-raisin-200">
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
     <div class="flex-grow bg-raisin-800 z-50">
         <div class="px-4 pt-14 sm:px-20 pb-1">
             <div class="-ml-4 h-16 mb-10 sm:mb-24 flex flex-row items-center justify-between">
@@ -39,34 +42,34 @@
 
             <main class="grow flex flex-col justify-start">
                 <div class="mb-40">
-                    <h1 class="font-black font-montserrat text-5xl sm:text-[12vw] lg:text-[9vw] text-balance leading-[0.9] text-brightpink-500">
+                    <h1 class="hero-title font-black font-montserrat text-5xl sm:text-[12vw] lg:text-[9vw] text-balance leading-[0.9] text-brightpink-500">
                         Transforming ideas into products
                     </h1>
-                    <hr class="mt-16 mb-14 lg:mt-20 lg:mb-16 h-1 bg-brightpink-500 border-brightpink-500 w-14 shadow-4xl">
-                    <p class="max-w-3xl text-2xl lg:text-4xl lg:max-w-4xl text-pretty">
-                        We are a collective of strategists, designers, and engineers embracing <b class="text-aquamarine-300">Applied Innovation</b> to shape ideas into reality.
+                    <hr class="hero-accent mt-16 mb-14 lg:mt-20 lg:mb-16 h-1 bg-brightpink-500 border-brightpink-500 w-14 shadow-4xl">
+                    <p class="hero-description max-w-3xl text-2xl lg:text-4xl lg:max-w-4xl text-pretty">
+                        We are a collective of strategists, designers, and engineers embracing <b class="text-aquamarine-300 text-highlight">Applied Innovation</b> to shape ideas into reality.
                         Together, we solve complex problems through technology making new futures happen — we thrive at the intersection where digital meets physical.
                     </p>
                 </div>
 
-                <div class="mb-20">
-                    <h2 class="uppercase text-xs font-semibold">
+                <div class="mb-20 animate-section">
+                    <h2 class="uppercase text-xs font-semibold animate-child">
                         <span class="border-b-4 border-raisin-300 pb-2 font-mono">
                             How we help
                         </span>
                     </h2>
                     <div class="pt-8 space-y-12">
-                        <p class="max-w-3xl lg:max-w-4xl text-2xl lg:text-4xl text-pretty">
+                        <p class="hero-subtext max-w-3xl lg:max-w-4xl text-2xl lg:text-4xl text-pretty animate-child">
                             Collective Labs provides comprehensive development services, covering everything from ideation and prototyping to building scalable solutions end-to-end.
                         </p>
-                        <h3 class="font-montserrat col-span-auto font-black text-4xl sm:text-6xl lg:text-[7.8vw] text-balance leading-[0.9] text-aquamarine-300">
+                        <h3 class="font-montserrat col-span-auto font-black text-4xl sm:text-6xl lg:text-[7.8vw] text-balance leading-[0.9] text-aquamarine-300 animate-child">
                             Digital technology to transform the physical world
                         </h3>
                     </div>
                 </div>
 
-                <div class="pr-4 xgrid xsm:grid-cols-2 sm:space-x-4 flex justify-start flex-col sm:flex-row ">
-                    <div class="max-w-md flex flex-col mb-20">
+                <div class="pr-4 xgrid xsm:grid-cols-2 sm:space-x-4 flex justify-start flex-col sm:flex-row">
+                    <div class="service-card max-w-md flex flex-col mb-20 p-6 -ml-6 rounded-xl transition-all duration-300 hover:bg-raisin-700/30">
                         <h2 class="uppercase text-xs font-semibold">
                             <span class="border-b-4 border-raisin-300 pb-2 font-mono">
                                 Labs
@@ -79,7 +82,7 @@
                             The Labs offering combines business strategy with product innovation, merging design thinking with iterative tech cycles to discover feasible paths and emphasize solutions.
                         </p>
                     </div>
-                    <div class="max-w-md flex flex-col mb-20">
+                    <div class="service-card max-w-md flex flex-col mb-20 p-6 rounded-xl transition-all duration-300 hover:bg-raisin-700/30">
                         <h2 class="uppercase text-xs font-semibold">
                             <span class="border-b-4 border-raisin-300 pb-2 font-mono">
                                 Studio
@@ -90,55 +93,55 @@
                             Define, design, and build.
                         </h3>
                         <p class="">
-                            The Studio offering is where the making process happens. Working with founder teams, product leadership, or partner’s CTOs, we design and build products and experiences
+                            The Studio offering is where the making process happens. Working with founder teams, product leadership, or partner's CTOs, we design and build products and experiences
                         </p>
                     </div>
                 </div>
 
-                <div class="mt-20">
-                    <h2 class="uppercase text-xs font-semibold">
+                <div class="mt-20 process-section">
+                    <h2 class="uppercase text-xs font-semibold animate-section">
                         <span class="border-b-4 border-raisin-300 pb-2 font-mono">
                             How we work
                         </span>
                     </h2>
-                    <div class="text-balance divide-y divide-teal-100">
-                        <div class="grid grid-cols-2 self-end gap-x-5 pb-10 pt-8">
-                            <h3 class="mb-4 col-span-2 sm:col-span-1 text-2xl lg:text-5xl text-aquamarine-300 font-montserrat font-bold">
-                                <span class="text-8xl font-black font-mono">
+                    <div class="text-balance divide-y divide-teal-100/10">
+                        <div class="process-step grid grid-cols-2 self-end gap-x-5 pb-10 pt-8">
+                            <h3 class="step-title mb-4 col-span-2 sm:col-span-1 text-2xl lg:text-5xl text-aquamarine-300 font-montserrat font-bold">
+                                <span class="step-number text-8xl font-black font-mono">
                                     01
                                 </span> — &nbsp;Discover
                             </h3>
-                            <p class="col-span-2 sm:col-span-1 text-lg lg:text-2xl">
+                            <p class="step-description col-span-2 sm:col-span-1 text-lg lg:text-2xl">
                                 Immerse ourselves in understanding your goals, challenges, and aspirations. Through in-depth research, stakeholder interviews, engaging domain experts, we uncover valuable insights that form the foundation of our strategy.
                             </p>
                         </div>
-                        <div class="grid grid-cols-2 self-end gap-x-5 pb-10 pt-8">
-                            <h3 class="mb-4 col-span-2 sm:col-span-1 text-2xl lg:text-5xl text-aquamarine-300 font-montserrat font-bold">
-                                <span class="text-8xl font-black font-mono">
+                        <div class="process-step grid grid-cols-2 self-end gap-x-5 pb-10 pt-8">
+                            <h3 class="step-title mb-4 col-span-2 sm:col-span-1 text-2xl lg:text-5xl text-aquamarine-300 font-montserrat font-bold">
+                                <span class="step-number text-8xl font-black font-mono">
                                     02
                                 </span> — &nbsp;Define
                             </h3>
-                            <p class="col-span-2 sm:col-span-1 text-lg lg:text-2xl">
+                            <p class="step-description col-span-2 sm:col-span-1 text-lg lg:text-2xl">
                                 Distill our findings into actionable goals and criteria for success, synthesizing the information gathered to pinpoint opportunities and define the scope of the project.
                             </p>
                         </div>
-                        <div class="grid grid-cols-2 self-end gap-x-5 pb-10 pt-8">
-                            <h3 class="mb-4 col-span-2 sm:col-span-1 text-2xl lg:text-5xl text-aquamarine-300 font-montserrat font-bold">
-                                <span class="text-8xl font-black font-mono">
+                        <div class="process-step grid grid-cols-2 self-end gap-x-5 pb-10 pt-8">
+                            <h3 class="step-title mb-4 col-span-2 sm:col-span-1 text-2xl lg:text-5xl text-aquamarine-300 font-montserrat font-bold">
+                                <span class="step-number text-8xl font-black font-mono">
                                     03
                                 </span> — &nbsp; Develop
                             </h3>
-                            <p class="col-span-2 sm:col-span-1 text-lg lg:text-2xl">
+                            <p class="step-description col-span-2 sm:col-span-1 text-lg lg:text-2xl">
                                 Collaborate to ideate and prototype solutions, co-designing with different perspectives ensures that we consider all angles and develop solutions that are both creative and practical.
                             </p>
                         </div>
-                        <div class="grid grid-cols-2 self-end gap-x-5 pb-10 pt-8">
-                            <h3 class="mb-4 col-span-2 sm:col-span-1 text-2xl lg:text-5xl text-aquamarine-300 font-montserrat font-bold">
-                                <span class="text-8xl font-black font-mono">
+                        <div class="process-step grid grid-cols-2 self-end gap-x-5 pb-10 pt-8">
+                            <h3 class="step-title mb-4 col-span-2 sm:col-span-1 text-2xl lg:text-5xl text-aquamarine-300 font-montserrat font-bold">
+                                <span class="step-number text-8xl font-black font-mono">
                                     04
                                 </span> — &nbsp; Deliver
                             </h3>
-                            <p class="col-span-2 sm:col-span-1 text-lg lg:text-2xl">
+                            <p class="step-description col-span-2 sm:col-span-1 text-lg lg:text-2xl">
                                 Refining prototypes based on feedback and rigorous testing, bringing ideas to life.
                             </p>
                         </div>
@@ -168,23 +171,23 @@
 
     <!-- FOOTER -->
     <div class="sticky bottom-0 left-0 right-0 z-0 bg-raisin-900 overflow-hidden">
-        <img src="/img/pattern_003.svg" loading="lazy" alt="Background Pattern" class="absolute inset-0 w-full h-full object-cover bg-bottom bg-no-repeat z-[-1]">
-        <div class="px-8 sm:px-20 pt-14 spb-1">
-            <div class="text-raisin-50 text-6xl sm:text-[calc(8rem+0.5vw)] lg:text-[calc(5rem+10vw)] -space-y-2 sm:-space-y-4">
+        <img src="/img/pattern_003.svg" loading="lazy" alt="Background Pattern" class="absolute inset-0 w-full h-full object-cover bg-bottom bg-no-repeat z-[-1]" data-parallax="-0.2">
+        <div class="footer-content px-8 sm:px-20 pt-14 spb-1">
+            <div class="footer-animate text-raisin-50 text-6xl sm:text-[calc(8rem+0.5vw)] lg:text-[calc(5rem+10vw)] -space-y-2 sm:-space-y-4">
                 <p class="font-black lowercase">Collective</p>
                 <p class="font-black lowercase">
                     Labs
                 </p>
             </div>
             <div class="mt-8 font-montserrat">
-                <p class="uppercase font-semibold text-xl">
+                <p class="footer-animate uppercase font-semibold text-xl">
                     Partnership tailored to you.
                 </p>
-                <p class="uppercase font-semibold text-xl text-aquamarine-200">
+                <p class="footer-animate uppercase font-semibold text-xl text-aquamarine-200">
                     Let's work — together.
                 </p>
-                <div class="mt-6">
-                    <a class="bg-aquamarine-50 hover:bg-aquamarine-200 transition-all text-center group border border-aquamarine-50 inline-block px-5 py-3 md:px-7 md:py-3 duration-300 text-raisin-900 hover:text-aquamarine-800 hover:border-aquamarine-50 rounded-full" href="mailto:hello@c8e.io?subject=Inquiry" target="_blank" rel="noopener noreferrer">
+                <div class="mt-6 footer-animate">
+                    <a class="magnetic bg-aquamarine-50 hover:bg-aquamarine-200 transition-all text-center group border border-aquamarine-50 inline-block px-5 py-3 md:px-7 md:py-3 duration-300 text-raisin-900 hover:text-aquamarine-800 hover:border-aquamarine-50 rounded-full" href="mailto:hello@c8e.io?subject=Inquiry" target="_blank" rel="noopener noreferrer">
                         <span class="uppercase text-sm font-bold">
                             Contact Us
                         </span>
@@ -196,12 +199,12 @@
                 </div>
             </div>
             <footer class="mt-60 lg:mt-32 flex justify-between font-mono">
-                <div>
+                <div class="footer-animate">
                     <a href="/" class="logo flex justify-center items-center">
                         <img src="/img/logo/logo_light_v6.svg" loading="lazy" class="h-10" alt="logo">
                     </a>
                 </div>
-                <div class="space-y-4">
+                <div class="footer-animate space-y-4">
                     <span class="uppercase text-xs font-light">
                        Address
                     </span>
@@ -228,7 +231,7 @@
                     </div>
                 </div>
 
-                <div class="space-y-4">
+                <div class="footer-animate space-y-4">
                     <span class="uppercase text-xs font-light">
                         Contact
                     </span>
@@ -249,7 +252,7 @@
 
             <div class="pt-10  font-mono uppercase">
                 <p class="font-light text-[0.57rem] bg-black/20 p-1 text-slate-300 float-right">
-                    &#169; 2024 Collective Labs, LLC
+                    &#169; 2026 Collective Labs, LLC
                 </p>
             </div>
         </div>

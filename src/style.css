@@ -17,6 +17,168 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ===== ANIMATION UTILITIES ===== */
+
+/* Scroll Progress Bar */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #ff6b8a 0%, #61deb4 100%);
+  transform-origin: left center;
+  transform: scaleX(0);
+  z-index: 9999;
+}
+
+/* Custom Cursor Styles */
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10000;
+  opacity: 0;
+  mix-blend-mode: difference;
+}
+
+.cursor-outer {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #61deb4;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  transition: border-color 0.3s ease;
+}
+
+.cursor-inner {
+  width: 8px;
+  height: 8px;
+  background: #61deb4;
+  border-radius: 50%;
+  position: absolute;
+  top: -4px;
+  left: -4px;
+}
+
+/* Hide default cursor when custom cursor is active */
+@media (pointer: fine) {
+  body:has(.custom-cursor) {
+    cursor: none;
+  }
+
+  body:has(.custom-cursor) a,
+  body:has(.custom-cursor) button {
+    cursor: none;
+  }
+}
+
+/* Marquee Styles */
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 2rem;
+}
+
+.marquee-item {
+  flex-shrink: 0;
+}
+
+/* Animation helper classes */
+.animate-section {
+  will-change: transform, opacity;
+}
+
+.animate-child {
+  will-change: transform, opacity;
+}
+
+/* Text highlight glow effect */
+.text-highlight {
+  position: relative;
+  display: inline;
+}
+
+/* Magnetic button base */
+.magnetic {
+  display: inline-block;
+  will-change: transform;
+}
+
+/* Smooth page transitions */
+.page-transition {
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Process step connector line */
+.step-connector {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 2px;
+  height: 40px;
+  background: linear-gradient(to bottom, #61deb4, transparent);
+  transform-origin: top center;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, #ff6b8a 0%, #61deb4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animated gradient background */
+.animated-gradient {
+  background: linear-gradient(-45deg, #2d2d35, #1a1a1f, #2d2d35, #1a1a1f);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .scroll-progress,
+  .custom-cursor {
+    display: none;
+  }
+}
+
 /* @font-face {
   font-family: "Mona Sans";
   src:
