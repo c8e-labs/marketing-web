@@ -8,72 +8,41 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: marketing-web
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Login to GitHub Container Registry
-        uses: docker/login-action@v3
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-
-      - name: Build and push
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          push: true
-          tags: |
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
 
       - name: Install doctl
         uses: digitalocean/action-doctl@v2
         with:
           token: ${{ secrets.DO_ACCESS_TOKEN }}
 
+      - name: Login to DOCR
+        run: doctl registry login --expiry-seconds 1200
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build and push to DOCR
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: |
+            registry.digitalocean.com/${{ secrets.DO_REGISTRY_NAME }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+            registry.digitalocean.com/${{ secrets.DO_REGISTRY_NAME }}/${{ env.IMAGE_NAME }}:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
       - name: Deploy to App Platform
-        env:
-          GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
         run: |
-          # Create app spec with credentials
-          cat > /tmp/app-spec.yaml << EOF
-          name: marketing-web
-          region: nyc
-          services:
-            - name: web
-              image:
-                registry: ghcr.io
-                repository: c8e-labs/marketing-web
-                tag: latest
-                credentials:
-                  username: c8e-labs
-                  password: "${GHCR_TOKEN}"
-              instance_count: 1
-              instance_size_slug: apps-s-1vcpu-0.5gb
-              http_port: 8080
-              routes:
-                - path: /
-              health_check:
-                http_path: /
-                initial_delay_seconds: 10
-                period_seconds: 10
-          EOF
+          # Update app spec with registry name
+          sed "s/REGISTRY_NAME/${{ secrets.DO_REGISTRY_NAME }}/g" .do/app.yaml > /tmp/app-spec.yaml
 
           APP_ID=$(doctl apps list --format ID,Spec.Name --no-header | grep marketing-web | awk '{print $1}' || true)
 
