@@ -42,6 +42,9 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
+      - name: Inject GHCR token into app spec
+        run: sed -i 's/GHCR_TOKEN_PLACEHOLDER/${{ secrets.GHCR_TOKEN }}/g' .do/app.yaml
+
       - name: Install doctl
         uses: digitalocean/action-doctl@v2
         with:
