@@ -42,16 +42,43 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
-      - name: Inject GHCR token into app spec
-        run: sed -i 's/GHCR_TOKEN_PLACEHOLDER/${{ secrets.GHCR_TOKEN }}/g' .do/app.yaml
-
       - name: Install doctl
         uses: digitalocean/action-doctl@v2
         with:
           token: ${{ secrets.DO_ACCESS_TOKEN }}
 
       - name: Deploy to App Platform
-        uses: digitalocean/app_action/deploy@v2
-        with:
-          token: ${{ secrets.DO_ACCESS_TOKEN }}
-          app_spec_location: .do/app.yaml
+        env:
+          GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
+        run: |
+          # Create app spec with credentials
+          cat > /tmp/app-spec.yaml << EOF
+          name: marketing-web
+          region: nyc
+          services:
+            - name: web
+              image:
+                registry: ghcr.io
+                repository: c8e-labs/marketing-web
+                tag: latest
+                credentials:
+                  username: c8e-labs
+                  password: "${GHCR_TOKEN}"
+              instance_count: 1
+              instance_size_slug: apps-s-1vcpu-0.5gb
+              http_port: 8080
+              routes:
+                - path: /
+              health_check:
+                http_path: /
+                initial_delay_seconds: 10
+                period_seconds: 10
+          EOF
+
+          APP_ID=$(doctl apps list --format ID,Spec.Name --no-header | grep marketing-web | awk '{print $1}' || true)
+
+          if [ -z "$APP_ID" ]; then
+            doctl apps create --spec /tmp/app-spec.yaml
+          else
+            doctl apps update $APP_ID --spec /tmp/app-spec.yaml
+          fi

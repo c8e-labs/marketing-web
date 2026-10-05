@@ -3,13 +3,9 @@ region: nyc
 services:
   - name: web
     image:
-      registry_type: GHCR
-      registry: c8e-labs
+      registry: ghcr.io
       repository: c8e-labs/marketing-web
       tag: latest
-      registry_credentials:
-        username: c8e-labs
-        password: GHCR_TOKEN_PLACEHOLDER
     instance_count: 1
     instance_size_slug: apps-s-1vcpu-0.5gb
     http_port: 8080
