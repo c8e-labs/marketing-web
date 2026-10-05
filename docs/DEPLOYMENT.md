@@ -2,23 +2,26 @@
 
 ## Setup
 
-### 1. DigitalOcean
+### 1. GitHub Container Registry
 
-1. Create a **Container Registry** in DO dashboard
-2. Create an **API Token** (API → Tokens → Generate)
+Images are pushed to `ghcr.io/c8e-labs/marketing-web` (free, automatic).
 
-### 2. GitHub Secrets
+### 2. DigitalOcean
+
+1. Create an **API Token** (API → Tokens → Generate)
+2. Link GHCR to DO App Platform (first deploy will prompt)
+
+### 3. GitHub Secret
 
 Add to repo (Settings → Secrets → Actions):
 
 | Secret | Value |
 |--------|-------|
 | `DO_ACCESS_TOKEN` | Your DO API token |
-| `DO_REGISTRY_NAME` | Your registry name |
 
 ## Deploy
 
-Push to `main` → automatic deploy to production.
+Push to `main` or `experiment` → automatic deploy.
 
 Or manually: Actions → Deploy → Run workflow
 
@@ -29,7 +32,3 @@ docker build -t marketing-web .
 docker run -p 8080:8080 marketing-web
 # http://localhost:8080
 ```
-
-## Instance
-
-Using `apps-s-1vcpu-0.5gb` (~$5/month)
